@@ -1,0 +1,6 @@
+++++
+<script src="/einstein/common.js"></script>
+<script src="/einstein/instrument.js"></script>
+++++
+
+// vim: ft=javascript

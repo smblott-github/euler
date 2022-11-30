@@ -6,13 +6,8 @@ The format of this document is `asciidoc`, and it will be compiled with:
 This generates the HTML which will be included on the website.
 ////
 
-// //////////////////////////////////////////////////////////////
-== Euler 1
-
 ****
-This is an Einstein marker for Euler problem 1:
-
-- https://projecteuler.net/problem=1[]
+Euler problem 1: https://projecteuler.net/problem=1[].
 ****
 
 .Task
@@ -21,6 +16,8 @@ Assume a single command-line argument _n_, a positive integer.
 
 Write a python script named `euler-1-multiples-of-3-or-5.py` which writes the sum
 of all positive integers less than _n_ which are divisible by either 3 or 5 to standard output.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
 ****
 
 .Example invocation

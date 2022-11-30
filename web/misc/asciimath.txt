@@ -1,0 +1,13 @@
+
+++++
+<script type="text/javascript" src="https://einstein.computing.dcu.ie/npm/mathjax/MathJax.js?config=AM_CHTML">
+</script>
+
+<script> type="text/javascript"
+   MathJax.Hub.Config({
+     asciimath2jax: { delimiters: [['$','$']] }
+   });
+</script>
+++++
+
+// vim: ft=javascript
