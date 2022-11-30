@@ -1,0 +1,21 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor --embeded task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+// //////////////////////////////////////////////////////////////
+== Hello
+
+.Task
+****
+Write a python script named `hello.py` which writes the message "hello" to
+standard output.
+****
+
+.Example standard output
+----
+hello
+----

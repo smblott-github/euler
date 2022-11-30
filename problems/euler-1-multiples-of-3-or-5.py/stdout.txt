@@ -1,0 +1,14 @@
+$ python3 euler-1-multiples-of-3-or-5.py 0
+0
+$ python3 euler-1-multiples-of-3-or-5.py 10
+23
+$ python3 euler-1-multiples-of-3-or-5.py 100
+2318
+$ python3 euler-1-multiples-of-3-or-5.py 500
+57918
+$ python3 euler-1-multiples-of-3-or-5.py 1000
+233168
+$ python3 euler-1-multiples-of-3-or-5.py 5000
+5829168
+$ python3 euler-1-multiples-of-3-or-5.py 10000
+23331668

@@ -1,0 +1,47 @@
+#!/usr/bin/zsh
+
+#
+# Usage:
+#
+#   $ show-exec-command COMMAND [ARGUMENTS...]
+#
+# ... write the command we're about to run to standard output,
+# then run it.
+#
+# This is useful for writing Einstein markers where we want to
+# show what command we're executing before executing it.
+#
+# With -e, show the exit status when we're done.
+#
+# This script is here, of course, but it is also installed inside
+# the Einstein execution environment.
+#
+
+show_exit_status=
+if (( 0 < $#argv )) && [[ $argv[1] == "-e" ]]
+then
+  shift
+  show_exit_status=yes
+fi
+
+args=()
+for arg
+do
+  case $arg in
+    ""            ) args+=( "'$arg'" ) ;;
+    *[[:blank:]]* ) args+=( "'$arg'" ) ;;
+    *             ) args+=(   $arg   ) ;;
+  esac
+done
+
+print "$ $args"
+
+if [[ -n $show_exit_status ]]
+then
+  $argv
+  x=$?
+  print "exit status (\$?) is $x"
+  exit $x
+else
+  exec $argv
+fi

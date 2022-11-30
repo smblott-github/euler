@@ -1,0 +1,34 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor --embeded task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+// //////////////////////////////////////////////////////////////
+== Euler 1
+
+****
+This is an Einstein marker for Euler problem 1:
+
+- https://projecteuler.net/problem=1[]
+****
+
+.Task
+****
+Assume a single command-line argument _n_, a positive integer.
+
+Write a python script named `euler-1-multiples-of-3-or-5.py` which writes the sum
+of all positive integers less than _n_ which are divisible by either 3 or 5 to standard output.
+****
+
+.Example invocation
+----
+$ python3 euler-1-multiples-of-3-or-5.py 10
+----
+
+.Example standard output
+----
+23
+----
