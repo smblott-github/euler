@@ -12,7 +12,7 @@ Euler problem 1: https://projecteuler.net/problem=1[].
 
 .Task
 ****
-Assume a single command-line argument _n_, a positive integer.
+Assume a single command-line argument, non-negative integer _n_.
 
 Write a python script named `euler-1-multiples-of-3-or-5.py` which writes the sum
 of all positive integers less than _n_ which are divisible by either 3 or 5 to standard output.
