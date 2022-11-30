@@ -1,4 +1,3 @@
-
 bin_dir = /usr/local/bin
 
 src = $(wildcard [a-z]*)

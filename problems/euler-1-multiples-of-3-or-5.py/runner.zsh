@@ -1,13 +1,17 @@
 #!/usr/bin/env zsh
-
 #
-# The TASK environment variable will be set in the Einstein execution environment.
+# The TASK environment variable will be set in the Einstein execution
+# environment automatically.
 #
-# Try to set the TASK environment variable for testing...
+# For testing, try to set the TASK environment variable...
 #
 [[ -z $TASK ]] && [[ -f $PWD:t ]] && TASK=$PWD:t
 [[ -z $TASK ]] && [[ -f $PWD:h:t ]] && TASK=$PWD:h:t
 
+# The show-exec-command is available in the Einstein execution environment.
+# It is also available in the `bin` directory in the project repo.  You can
+# install it locally from there for testing.
+#
 for v in 0 10 100 500 1000 5000 10000
 do
   show-exec-command python3 $TASK $v
