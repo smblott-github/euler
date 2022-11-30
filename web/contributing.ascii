@@ -36,7 +36,9 @@ The absolute minimum for a new task/marker is:
 - `task-description.ascii` +
   a description of the task with example command line arguments, input, output, and so on +
   the format is https://asciidoctor.org/[asciidoc]; asciidoc is like grown-up markdown
+****
 
+****
 For input, you can:
 
 - write a "runner" script (like
@@ -51,23 +53,38 @@ there's information on how to write _Einstein_ markers link:/einstein/help#_mark
 // //////////////////////////////////////////////////////////////
 == Other languages
 
-.Languages
 ****
 You can choose python, if that's your preference.
 
 But you don't have to.
 
-You can choose any language support by _Einstein_: C, python, shell, zsh,
-perl, prolog, Haskell, awk, sed, Java, JavaScript, ...
+You can choose any language support by _Einstein_:
 
+- C, python, shell, zsh, perl, prolog, Haskell, awk, sed, Java, JavaScript, ...
+****
+
+****
 Moreover, you can contribute additional solutions to problems for which
-markers already exist, just in different languages.
+markers already exist, just using a different programming language.
 
-For example, I (SB) wrote `euler-1-multiples-of-3-or-5.py`, but perhaps you
-might contribute `euler-1-multiples-of-3-or-5.py`, or `euler-1-multiples-of-3-or-5.js`.
+For example, this marker exists:
 
-Also, adding languages is pretty trivial, if you want to tackle one which
-isn't already on the list.
+ euler-1-multiples-of-3-or-5.py
+
+but perhaps you might contribute
+
+ euler-1-multiples-of-3-or-5.c
+
+or
+
+ euler-1-multiples-of-3-or-5.js
+****
+
+****
+Also, if you want to tackle a language which isn't already on the list,
+then adding languages to _Einstein_ is pretty trivial.
+
+Perhaps golang?  Or rust?
 
 Once again, ask SB if you need help.
 ****
