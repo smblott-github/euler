@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 #
-# The TASK environment variable will be set in the Einstein execution
-# environment automatically.
+# The TASK environment variable will be set automatically in the Einstein execution
+# environment.
 #
 # For testing, try to set the TASK environment variable...
 #
