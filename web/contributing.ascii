@@ -1,0 +1,90 @@
+= Contributing
+
+****
+Contributions of markers for new _Euler_ problems are _very welcome_.
+
+This project is hosted on GitLab, here: https://gitlab.computing.dcu.ie/sblott/euler[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Contributing new markers
+
+.To contribute a new marker/problem...
+****
+. fork the GitLab project above (https://gitlab.computing.dcu.ie/sblott/euler[same link again])
+. clone your new repo
+. create a git branch for your contribution
+. write your marker:
+** copy an existing marker (see the `problems` directory in the repo)
+** there's information on how to write _Einstein_ markers link:/einstein/help#_markers[here]
+** ask SB if you need help
+. submit a merge request (MR) on GitLab +
+  (email SB too, otherwise I might not see your MR).
+****
+
+// //////////////////////////////////////////////////////////////
+== Writing markers
+
+.Writing _Einstein_ markers...
+****
+The absolute minimum for a new task/marker is:
+
+- an exemplar +
+  this is your own solution for the problem
+- `stdout.txt` +
+  the expected output
+- `task-description.ascii` +
+  a description of the task with example command line arguments, input, output, and so on +
+  the format is https://asciidoctor.org/[asciidoc]; asciidoc is like grown-up markdown
+
+For input, you can:
+
+- write a "runner" script (like
+  https://gitlab.computing.dcu.ie/sblott/euler/-/blob/main/problems/euler-1-multiples-of-3-or-5.py/runner.zsh[this one]),
+- use command-line arguments (filename: `argv.txt`), or
+- use standard input (filename: `stdin.txt`).
+
+Ask SB if you need more information;
+there's information on how to write _Einstein_ markers link:/einstein/help#_markers[here].
+****
+
+// //////////////////////////////////////////////////////////////
+== Other languages
+
+.Languages
+****
+You can choose python, if that's your preference.
+
+But you don't have to.
+
+You can choose any language support by _Einstein_: C, python, shell, zsh,
+perl, prolog, Haskell, awk, sed, Java, JavaScript, ...
+
+Moreover, you can contribute additional solutions to problems for which
+markers already exist, just in different languages.
+
+For example, I (SB) wrote `euler-1-multiples-of-3-or-5.py`, but perhaps you
+might contribute `euler-1-multiples-of-3-or-5.py`, or `euler-1-multiples-of-3-or-5.js`.
+
+Also, adding languages is pretty trivial, if you want to tackle one which
+isn't already on the list.
+
+Once again, ask SB if you need help.
+****
+
+// //////////////////////////////////////////////////////////////
+== Acknowledgement
+
+****
+If you make a contribution, then please add your name to the list of
+Contributors in `index.ascii` (in this directory in the repo).
+****
+
+// //////////////////////////////////////////////////////////////
+//
+include::misc/instrument.txt[]
+include::misc/asciimath.txt[]
+
+////
+vim: ft=asciidoc
+////

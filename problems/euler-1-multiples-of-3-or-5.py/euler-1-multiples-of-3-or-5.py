@@ -4,6 +4,7 @@
 #
 # The following solution iterates.  But I'm pretty sure that there's a closed
 # formula for this, and that the iteration is unnecessary.
+#
 
 import sys
 

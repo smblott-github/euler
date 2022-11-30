@@ -26,40 +26,18 @@ Here, you can:
 == Contributing
 
 ****
-Contributions of markers for new _Euler_ problems are _very welcome_.
-
 This project is hosted on GitLab, here: https://gitlab.computing.dcu.ie/sblott/euler[].
 
-To contribute a new marker/problem:
+See the link:./contributing.html[contributing page] for more information on how to contribute.
 
-. clone and fork the GitLab project above,
-. create a git branch for your contribution,
-. write your marker:
-** copy an existing marker (see the `problems` directory in the repo),
-** there's information on how to write _Einstein_ markers link:/einstein/help#_markers[here],
-. submit a merge request (MR) on GitLab +
-  (you should email SB, too, otherwise I probably won't see your MR).
+Also, _please, please, please do consider contributing_!
 ****
 
+.The following people have contributed to this project...
 ****
-The absolute minimum for a new task/marker is:
+- Stephen Blott
 
-- an exemplar (your solution to the problem),
-- `stdout.txt` (the expected output), and
-- `task-description.ascii` (a description of the task with example command line arguments, input, output). +
-  (The format is https://asciidoctor.org/[asciidoc]; asciidoc is like grown-up markdown.)
-
-You can choose python, if that's your preference, or you can choose
-a different language.  Ask SB.
-
-For input, you can:
-
-- write a "runner" script (like
-  https://gitlab.computing.dcu.ie/sblott/euler/-/blob/main/problems/euler-1-multiples-of-3-or-5.py/runner.zsh[this one]),
-- use command-line arguments (filename: `argv.txt`), or
-- use standard input (filename: `stdin.txt`).
-
-Ask SB if you need more information.
+I you make a contribution, add your name to this list with your first MR.
 ****
 
 // //////////////////////////////////////////////////////////////
