@@ -99,6 +99,10 @@ If you make a contribution, then please add your name to the list of
 Contributors in `index.ascii` (in this directory in the repo).
 ****
 
+////
+Test commit (testing GitHub mirroring).
+////
+
 // //////////////////////////////////////////////////////////////
 //
 include::misc/instrument.txt[]
