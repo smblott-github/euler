@@ -19,8 +19,13 @@ rsync_options += --exclude="recent.html"
 install: $(html)
 	rsync -av $(rsync_options) ./ einstein:web/$(mod)/
 
+# SB uses `asciidoc-wrapper`, but CI uses just `asciidoctor`.
+#
+ad_wrapper = $(shell which asciidoc-wrapper)
+ad_wrapper := $(if $(ad_wrapper), $(ad_wrapper), asciidoctor)
+
 %.html: %.ascii
-	asciidoc-wrapper $<
+	$(ad_wrapper) $<
 
 %.html: %.slidy
 	slidy-wrapper $<
