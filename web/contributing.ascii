@@ -54,9 +54,7 @@ there's information on how to write _Einstein_ markers link:/einstein/help#_mark
 == Other languages
 
 ****
-You can choose python, if that's your preference.
-
-But you don't have to.
+You can choose python, if that's your preference; but you don't have to.
 
 You can choose any language support by _Einstein_:
 
@@ -99,9 +97,14 @@ If you make a contribution, then please add your name to the list of
 Contributors in `index.ascii` (in this directory in the repo).
 ****
 
-////
-Test commit 2 (testing GitHub mirroring).
-////
+.GitHub
+****
+This GitLab project is mirrored automatically to GitHub,
+https://github.com/smblott-github/euler[here].
+
+Your contributions will be publicly visible, and you might link to them in
+your CV, for example.
+****
 
 // //////////////////////////////////////////////////////////////
 //
