@@ -10,6 +10,9 @@ This generates the HTML which will be included on the website.
 Euler problem 1: https://projecteuler.net/problem=1[].
 ****
 
+// //////////////////////////////////////////////////////////////
+===== Python
+
 .Task
 ****
 Assume a single command-line argument, a non-negative integer _n_.
