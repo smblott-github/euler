@@ -1,0 +1,10 @@
+$ python3 euler-6-sum-square-difference.py 11
+3850
+$ python3 euler-6-sum-square-difference.py 27
+135954
+$ python3 euler-6-sum-square-difference.py 42
+789824
+$ python3 euler-6-sum-square-difference.py 75
+7979050
+$ python3 euler-6-sum-square-difference.py 103
+28317172
