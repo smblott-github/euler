@@ -1,5 +1,4 @@
 = Project Euler
-:stem:
 
 ****
 https://projecteuler.net/[Project Euler] is a database of computer
@@ -45,12 +44,25 @@ I you make a contribution, add your name to this list with your first MR.
 // //////////////////////////////////////////////////////////////
 == Euler problems
 
+'''
+
 // //////////////////////////////////////////////////////////////
 === Euler 1
 
 ++++
 <div class="task" task="euler-1-multiples-of-3-or-5.py"></div>
 ++++
+
+'''
+
+// //////////////////////////////////////////////////////////////
+=== Euler 6
+
+++++
+<div class="task" task="euler-6-sum-square-difference.py"></div>
+++++
+
+'''
 
 // //////////////////////////////////////////////////////////////
 //

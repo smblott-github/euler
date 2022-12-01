@@ -19,6 +19,7 @@ between the square of the sum and the sum of the squares of every positive integ
 to standard output.
 
 In other words, your script should output the difference between:
+
 - $(1 + 2 + ... + n)^2$
 - $1^2 + 2^2 + ... + n^2$
 
@@ -37,7 +38,7 @@ $ python3 euler-6-sum-square-difference.py 3
 
 .Explanation
 ****
-$(1 + 2 + 3)^2 = 36$
-$1^2 + 2^2 + 3^2 = 14$
-$36 - 14 = 22$
+- $(1 + 2 + 3)^2 = 36$ +
+  $1^2 + 2^2 + 3^2 = 14$
+- $36 - 14 = 22$
 ****

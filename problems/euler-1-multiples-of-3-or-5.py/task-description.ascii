@@ -15,10 +15,10 @@ Euler problem 1: https://projecteuler.net/problem=1[].
 
 .Task
 ****
-Assume a single command-line argument, a non-negative integer _n_.
+Assume a single command-line argument, a non-negative integer $n$.
 
 Write a python script named `euler-1-multiples-of-3-or-5.py` which writes the sum
-of all positive integers less than _n_ which are divisible by either 3 or 5 to standard output.
+of all positive integers less than $n$ which are divisible by either 3 or 5 to standard output.
 
 Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
 ****
