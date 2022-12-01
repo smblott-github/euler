@@ -90,6 +90,15 @@ Once again, just ask SB if you need help.
 ****
 
 // //////////////////////////////////////////////////////////////
+== Continuous integration (CI)
+
+****
+CI on GitLab is configured to run and test all markers.
+
+I'm not confident how reliable this is yet (SB).
+****
+
+// //////////////////////////////////////////////////////////////
 == Acknowledgement
 
 ****
