@@ -19,8 +19,8 @@ between the square of the sum and the sum of the squares of every positive integ
 to standard output.
 
 In other words, your script should output the difference between:
-* $(1 + 2 + ... + n)^2$
-* $1^2 + 2^2 + ... + n^2$
+- $(1 + 2 + ... + n)^2$
+- $1^2 + 2^2 + ... + n^2$
 
 Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
 ****
