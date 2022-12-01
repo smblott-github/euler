@@ -1,9 +1,6 @@
 bin_dir = /usr/local/bin
 
-# It is not recommended that you install all of the scripts in this directory,
-# just the ones listed below.
-#
-src = show-exec-command
+src = $(wildcard [a-z]*)
 dst = $(addprefix $(bin_dir)/, $(src))
 
 install: $(dst)

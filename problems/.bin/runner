@@ -112,7 +112,7 @@ do
 
       if [[ -f stdout.txt ]]
       then
-	 cmp --silent stdout.txt $TMP/.actual-stdout.txt
+	 diff stdout.txt $TMP/.actual-stdout.txt
       else
 	 true
       fi

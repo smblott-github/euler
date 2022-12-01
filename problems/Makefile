@@ -19,6 +19,6 @@ watch:
 	watch -n 1 $(MAKE) install
 
 test:
-	echo ok
+	zsh .bin/run-tests
 
 .PHONY: build install watch test
