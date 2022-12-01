@@ -60,7 +60,9 @@ But you don't have to.
 
 You can choose any language support by _Einstein_:
 
-- C, python, shell, zsh, perl, prolog, Haskell, awk, sed, Java, JavaScript, ...
+- C, python, perl, Prolog, Haskell, Java, JavaScript, R (Rscript), ...
+- and some scripting languages which are less likely to be of interest here: +
+  shell, zsh, awk, sed, ...
 ****
 
 ****
