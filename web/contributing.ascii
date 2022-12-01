@@ -19,7 +19,7 @@ This project is hosted on GitLab, here: https://gitlab.computing.dcu.ie/sblott/e
 ** there's information on how to write _Einstein_ markers link:/einstein/help#_markers[here]
 ** ask SB if you need help
 . submit a merge request (MR) on GitLab +
-  (email SB too, otherwise I might not see your MR).
+  (https://slack.computing.dcu.ie/[Slack] or email SB too, otherwise I might not see your MR).
 ****
 
 // //////////////////////////////////////////////////////////////
@@ -86,7 +86,7 @@ then adding languages to _Einstein_ is pretty trivial.
 
 Perhaps golang?  Or rust?
 
-Once again, ask SB if you need help.
+Once again, just ask SB if you need help.
 ****
 
 // //////////////////////////////////////////////////////////////
