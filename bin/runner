@@ -1,0 +1,122 @@
+#!/usr/bin/env zsh
+
+# This is an approximation of how Einstein runs tests, but running locally.
+# It's not exact, but it is close enough for most purposes.
+#
+
+set -e
+
+fail ()
+{
+   print -l -- $argv >&2
+   exit 2
+}
+
+auto_install=
+[[ $#argv != 0 ]] && [[ $argv[1] == "-a" || $argv1[1] == "-i" ]] && { auto_install="yes"; shift }
+
+if [[ $#argv == 1 ]] && [[ -d $argv[1] ]]
+then
+   cd $argv[1]
+   shift
+fi
+
+if [[ $#argv == 1 ]] && [[ -f $argv[1] ]]
+then
+   cd $argv[1]:h
+   shift
+fi
+
+TMP=$( mktemp -d /tmp/einstein-runner-XXXXXXXX )
+TRAPEXIT () { rm -fr $TMP; }
+reset_tmp () { rm -fr $TMP; mkdir $TMP }
+install_tmp () { cp $argv $TMP; }
+
+TASK=$PWD:t
+[[ -f $TASK ]] || fail "error: exemplar for $TASK not found"
+print "TASK: $TASK"
+TASK=$TASK:a
+
+TESTS=( . *(/N) ../module-wide/*(/N) )
+print "TESTS:" $TESTS "($#TESTS)"
+
+run_test ()
+{
+   reset_tmp
+   install_tmp $TASK
+
+   local runner=$TASK
+   for f in *(.N) .*(.N)
+   do
+      case $f in
+	 $TASK:t           ) true ;;
+	 #
+	 stdin.txt         ) print "exec < $TEST:t/$f"; exec < $f ;;
+	 argv.txt          ) IFS=$'\n' set -- $( < t.txt ) ;;
+	 #
+	 runner.sh         ) install_tmp $f; runner=$f ;;
+	 runner.zsh        ) install_tmp $f; runner=$f ;;
+	 runner.py         ) install_tmp $f; runner=$f ;;
+	 runner.pl         ) install_tmp $f; runner=$f ;;
+	 runner.hs         ) install_tmp $f; runner=$f ;;
+	 runner.r          ) install_tmp $f; runner=$f ;;
+	 Makefile          ) install_tmp $f; runner=$f ;;
+	 makefile          ) install_tmp $f; runner=$f ;;
+	 #
+	 stdout.txt        ) true ;;
+	 timeout.txt       ) true ;;
+	 suppress-io.txt   ) true ;;
+	 show-stderr.txt   ) true ;;
+	 ignore-stdout.txt ) true ;;
+	 ignore-stderr.txt ) true ;;
+	 no-sick-mode.txt  ) true ;;
+	 no-sick.txt       ) true ;;
+	 #
+	 *                 ) install_tmp $f ;;
+      esac
+   done
+
+   local extension="${runner##*.}"
+   local -a interpreter
+
+   case $extension in
+      "py"  ) interpreter+="python3" ;;
+      "sh"  ) interpreter+="dash" ;;
+      "zsh" ) interpreter+="zsh" ;;
+      "pl"  ) interpreter+="perl" ;;
+      "hs"  ) interpreter+="runghc" ;;
+      "r"   ) interpreter+="Rscript" ;;
+      "R"   ) interpreter+="Rscript" ;;
+   esac
+   print -- $TASK:t "->" $runner:t "->" $extension "->" $interpreter
+   print -- $interpreter $runner $argv
+
+   cd $TMP
+   TASK=$TASK:t VARIANT=$TASK:t MVT='false' EINSTEIN_USER=$USER \
+      $interpreter $runner $argv > .actual-stdout.txt
+}
+
+integer errors=0
+for TEST in $TESTS
+do
+   print -l "" "TEST: $TEST:t"
+   (
+      cd $TEST
+      ( run_test ) || return 1
+      cat $TMP/.actual-stdout.txt
+
+      if [[ -n $auto_install ]] && [[ $PWD == /**/$TASK:t || $PWD == /**/$TASK:t/* ]]
+      then
+	 cp -v $TMP/.actual-stdout.txt stdout.txt
+      fi
+
+      if [[ -f stdout.txt ]]
+      then
+	 cmp --silent stdout.txt $TMP/.actual-stdout.txt
+      else
+	 true
+      fi
+   ) || (( errors += 1 ))
+done
+
+(( errors == 0 ))

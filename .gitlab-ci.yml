@@ -1,0 +1,16 @@
+image: smblott/einstein-runner:latest
+
+build_web:
+  stage: build
+  script:
+    - make -C web build
+
+build_problems:
+  stage: build
+  script:
+    - make -C problems build
+
+test_problems:
+  stage: test
+  script:
+    - make -C problems test

@@ -18,4 +18,7 @@ build: $(descriptions)
 watch:
 	watch -n 1 $(MAKE) install
 
-.PHONY: build install watch
+test:
+	echo ok
+
+.PHONY: build install watch test
