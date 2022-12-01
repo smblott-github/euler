@@ -1,0 +1,43 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor --embeded task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+****
+Euler problem 6: https://projecteuler.net/problem=6[].
+****
+
+.Task
+****
+Assume a single command-line argument, a non-negative integer $n$.
+
+Write a python script named `euler-6-sum-square-difference.py` which writes the difference
+between the square of the sum and the sum of the squares of every positive integer from $1$ to $n$ (both inclusive)
+to standard output.
+
+In other words, your script should output the difference between:
+* $(1 + 2 + ... + n)^2$
+* $1^2 + 2^2 + ... + n^2$
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ python3 euler-6-sum-square-difference.py 3
+----
+
+.Example standard output
+----
+22
+----
+
+.Explanation
+****
+$(1 + 2 + 3)^2 = 36$
+$1^2 + 2^2 + 3^2 = 14$
+$36 - 14 = 22$
+****
