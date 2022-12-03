@@ -37,6 +37,7 @@ Also, _please, please, please do consider contributing_!
 ****
 - Stephen Blott (stephen.blott@dcu.ie)
 - Sam McElligott (sam.mcelligott3@mail.dcu.ie)
+- Michael Redmond (michael.redmond29@mail.dcu.ie)
 
 When you make a contribution, add your name to this list.
 ****
@@ -60,6 +61,15 @@ When you make a contribution, add your name to this list.
 
 ++++
 <div class="task" task="euler-6-sum-square-difference.py"></div>
+++++
+
+'''
+
+// //////////////////////////////////////////////////////////////
+=== Euler 20
+
+++++
+<div class="task" task="euler-20-factorial-digit-sum.py"></div>
 ++++
 
 '''

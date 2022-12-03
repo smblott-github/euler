@@ -1,0 +1,10 @@
+$ python3 euler-20-factorial-digit-sum.py 25
+72
+$ python3 euler-20-factorial-digit-sum.py 75
+432
+$ python3 euler-20-factorial-digit-sum.py 125
+855
+$ python3 euler-20-factorial-digit-sum.py 250
+1953
+$ python3 euler-20-factorial-digit-sum.py 750
+7416

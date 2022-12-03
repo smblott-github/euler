@@ -1,0 +1,39 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor --embeded task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+****
+Euler problem 20: https://projecteuler.net/problem=20[].
+****
+
+// //////////////////////////////////////////////////////////////
+===== Python
+
+.Task
+****
+Assume a single command-line argument, a non-negative integer $n$.
+
+Write a python script named `euler-20-factorial-digit-sum.py` which writes the sum of the digits in the number $n!$ to standard output.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ python3 euler-20-factorial-digit-sum.py 10
+----
+
+.Example standard output
+----
+27
+----
+
+.Explanation
+****
+10! = 10 * 9 * 8 ... * 2 * 1 = 3628800
+where the sum of digits is 3, 6, 2, 8, 8, 0 and 0 = 27
+****
