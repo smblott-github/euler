@@ -34,7 +34,5 @@ $ python3 euler-20-factorial-digit-sum.py 10
 
 .Explanation
 ****
-- $10! = 10 * 9 * 8 ... * 2 * 1 = 3628800$
-
-and the sum of digits is 3, 6, 2, 8, 8, 0 and 0 is 27.
+$10! = 10 * 9 * 8 ... * 2 * 1 = 3628800$, and the sum of digits is 3, 6, 2, 8, 8, 0 and 0 is 27.
 ****
