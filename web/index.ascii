@@ -75,6 +75,15 @@ When you make a contribution, add your name to this list.
 '''
 
 // //////////////////////////////////////////////////////////////
+=== Euler 25
+
+++++
+<div class="task" task="euler-25-nth-digit-fibonacci-num.py"></div>
+++++
+
+'''
+
+// //////////////////////////////////////////////////////////////
 //
 include::misc/instrument.txt[]
 include::misc/asciimath.txt[]
