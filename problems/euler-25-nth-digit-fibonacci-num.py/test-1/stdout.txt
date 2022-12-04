@@ -1,0 +1,10 @@
+$ python3 euler-25-nth-digit-fibonacci-num.py 25
+117
+$ python3 euler-25-nth-digit-fibonacci-num.py 75
+356
+$ python3 euler-25-nth-digit-fibonacci-num.py 125
+596
+$ python3 euler-25-nth-digit-fibonacci-num.py 250
+1194
+$ python3 euler-25-nth-digit-fibonacci-num.py 750
+3586

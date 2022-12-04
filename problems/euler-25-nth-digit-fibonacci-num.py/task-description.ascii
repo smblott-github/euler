@@ -1,0 +1,49 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor --embeded task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+****
+Euler problem 25: https://projecteuler.net/problem=25[].
+****
+
+// //////////////////////////////////////////////////////////////
+===== Python
+
+.Task
+****
+Assume a single command-line argument, a non-negative integer $n$.
+
+Write a python script named `euler-25-nth-digit-fibonacci-num.py` which writes the index of the first term in the Fibonacci sequence to contain $n!$ digits to standard output.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ python3 euler-25-nth-digit-fibonacci-num.py 2
+----
+
+.Example standard output
+----
+7
+----
+
+.Explanation
+****
+- $F~1~ = 1$
+- $F~2~ = 1$
+- $F~3~ = 2$
+- $F~4~ = 3$
+- $F~5~ = 5$
+- $F~6~ = 8$
+- #$F~7~ = 13$#
+- $F~8~ = 21$
+- $F~9~ = 34$
+- $F~10~ = 55$
+- $F~11~ = 89$
+- $F~12~ = 144$
+****
