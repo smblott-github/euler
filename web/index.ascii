@@ -6,10 +6,6 @@
 :toc-levels: 4
 
 ****
-https://projecteuler.net/[Project Euler] is a database of computer
-programming problems...
-****
-
 [quote,Project Euler]
 ____
 Project Euler is a series of challenging mathematical/computer programming
@@ -18,12 +14,15 @@ problems...
 [The problems are for] students for whom the basic curriculum is not feeding their hunger to learn...
 ____
 
+Link: https://projecteuler.net/[].
+****
+
 ****
 This is a database of _Einstein_ tasks for the _Euler_ programming problems.
 
 Here, you can:
 
-- tackle the programming problems, below, and upload them to link:/einstein/[_Einstein_],
+- tackle the programming problems, links below, and upload them to link:/einstein/[_Einstein_],
 - or _contribute your own markers_ for the _Euler_ problems (see below).
 ****
 
@@ -61,10 +60,10 @@ When you make a contribution, add your name and the task to this list.
 
 .Problems
 ****
-- link:euler-1-multiples-of-3-or-5.html[]
-- link:euler-6-sum-square-difference.html[]
-- link:euler-20-factorial-digit-sum.html[]
-- link:euler-25-nth-digit-fibonacci-num.html[]
+- link:euler-1-multiples-of-3-or-5.html[euler-1-multiples-of-3-or-5]
+- link:euler-6-sum-square-difference.html[euler-6-sum-square-difference]
+- link:euler-20-factorial-digit-sum.html[euler-20-factorial-digit-sum]
+- link:euler-25-nth-digit-fibonacci-num.html[euler-25-nth-digit-fibonacci-num]
 ****
 
 '''
