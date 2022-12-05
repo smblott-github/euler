@@ -5,11 +5,6 @@ build_web:
   script:
     - make -C web build
 
-build_problems:
-  stage: build
-  script:
-    - make -C problems build
-
 test_problems:
   stage: test
   script:

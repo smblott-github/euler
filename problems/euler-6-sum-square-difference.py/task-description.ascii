@@ -1,14 +1,20 @@
 ////
 The format of this document is `asciidoc`, and it will be compiled with:
 
-   $ asciidoctor --embeded task-description.ascii
+   $ asciidoctor task-description.ascii
 
 This generates the HTML which will be included on the website.
 ////
 
+// //////////////////////////////////////////////////////////////
+= Euler 6
+
 ****
 Euler problem 6: https://projecteuler.net/problem=6[].
 ****
+
+// //////////////////////////////////////////////////////////////
+== Python
 
 .Task
 ****

@@ -1,17 +1,20 @@
 ////
 The format of this document is `asciidoc`, and it will be compiled with:
 
-   $ asciidoctor --embeded task-description.ascii
+   $ asciidoctor task-description.ascii
 
 This generates the HTML which will be included on the website.
 ////
+
+// //////////////////////////////////////////////////////////////
+= Euler 25
 
 ****
 Euler problem 25: https://projecteuler.net/problem=25[].
 ****
 
 // //////////////////////////////////////////////////////////////
-===== Python
+== Python
 
 .Task
 ****
@@ -34,16 +37,13 @@ $ python3 euler-25-nth-digit-fibonacci-num.py 2
 
 .Explanation
 ****
-- $F~1~ = 1$
-- $F~2~ = 1$
-- $F~3~ = 2$
-- $F~4~ = 3$
-- $F~5~ = 5$
-- $F~6~ = 8$
-- #$F~7~ = 13$#
-- $F~8~ = 21$
-- $F~9~ = 34$
-- $F~10~ = 55$
-- $F~11~ = 89$
-- $F~12~ = 144$
+$F_1 = 1$ +
+$F_2 = 1$ +
+$F_3 = 2$ +
+$F_4 = 3$ +
+$F_5 = 5$ +
+$F_6 = 8$ +
+#$F_7 = 13$# ← this is the first Fibonacci with two digits +
+$F_8 = 21$ +
+$F_9 = 34$
 ****

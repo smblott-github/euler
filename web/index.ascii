@@ -1,4 +1,9 @@
 = Project Euler
+:author: Stephen Blott"
+:email: stephen.blott@dcu.ie
+:toc: left
+:toc-title: Contents
+:toc-levels: 4
 
 ****
 https://projecteuler.net/[Project Euler] is a database of computer
@@ -26,60 +31,41 @@ Here, you can:
 == Contributing
 
 ****
-This project is hosted on GitLab, here: https://gitlab.computing.dcu.ie/sblott/euler[].
-
 See the link:./contributing.html[contributing page] for more information on how to contribute.
+
+This project is:
+
+- hosted on GitLab, here: https://gitlab.computing.dcu.ie/sblott/euler[], and
+- mirrored to GitHub, here: https://github.com/smblott-github/euler[].
 
 Also, _please, please, please do consider contributing_!
 ****
 
 .The following people have contributed to this project...
 ****
-- Stephen Blott (stephen.blott@dcu.ie)
-- Sam McElligott (sam.mcelligott3@mail.dcu.ie)
-- Michael Redmond (michael.redmond29@mail.dcu.ie)
+- Stephen Blott (stephen.blott@dcu.ie) +
+  `euler-1-multiples-of-3-or-5.py`
+- Sam McElligott (sam.mcelligott3@mail.dcu.ie) +
+  `euler-6-sum-square-difference.py`
+- Michael Redmond (michael.redmond29@mail.dcu.ie) +
+  `euler-20-factorial-digit-sum.py` +
+  `euler-25-nth-digit-fibonacci-num.py`
 
-When you make a contribution, add your name to this list.
+When you make a contribution, add your name and the task to this list.
 ****
+
+'''
 
 // //////////////////////////////////////////////////////////////
 == Euler problems
 
-'''
-
-// //////////////////////////////////////////////////////////////
-=== Euler 1
-
-++++
-<div class="task" task="euler-1-multiples-of-3-or-5.py"></div>
-++++
-
-'''
-
-// //////////////////////////////////////////////////////////////
-=== Euler 6
-
-++++
-<div class="task" task="euler-6-sum-square-difference.py"></div>
-++++
-
-'''
-
-// //////////////////////////////////////////////////////////////
-=== Euler 20
-
-++++
-<div class="task" task="euler-20-factorial-digit-sum.py"></div>
-++++
-
-'''
-
-// //////////////////////////////////////////////////////////////
-=== Euler 25
-
-++++
-<div class="task" task="euler-25-nth-digit-fibonacci-num.py"></div>
-++++
+.Problems
+****
+- link:euler-1-multiples-of-3-or-5.html[]
+- link:euler-6-sum-square-difference.html[]
+- link:euler-20-factorial-digit-sum.html[]
+- link:euler-25-nth-digit-fibonacci-num.html[]
+****
 
 '''
 

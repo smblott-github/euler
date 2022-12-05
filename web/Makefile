@@ -4,6 +4,10 @@ ascii = $(wildcard *.ascii)
 slidy = $(wildcard *.slidy)
 html = $(patsubst %.ascii, %.html, $(ascii)) $(patsubst %.slidy, %.html, $(slidy))
 
+tasks = $(shell ls -d ../problems/[a-z]*.py)
+task_names = $(notdir $(tasks))
+html += $(task_names:.py=.html)
+
 build: $(html)
 	@true
 
@@ -18,6 +22,7 @@ rsync_options += --exclude="recent.html"
 
 install: $(html)
 	rsync -av $(rsync_options) ./ einstein:web/$(mod)/
+	echo $(task_htmls)
 
 # SB uses `asciidoc-wrapper`, but CI uses just `asciidoctor`.
 #
@@ -25,10 +30,9 @@ ad_wrapper = $(shell which asciidoc-wrapper)
 ad_wrapper := $(if $(ad_wrapper), $(ad_wrapper), asciidoctor)
 
 %.html: %.ascii
-	$(ad_wrapper) $<
-
-%.html: %.slidy
-	slidy-wrapper $<
+	asciidoctor \
+	  -a stylesheet=$(HOME)/projects/asciidoctor/src/stylesheets/asciidoctor.css \
+	  -a source-highlighter=pygments -a icons=font $<
 
 %.py.html: %.py
 	source-highlight $<
@@ -36,7 +40,7 @@ ad_wrapper := $(if $(ad_wrapper), $(ad_wrapper), asciidoctor)
 watch:
 	watch -n 1 $(MAKE) install
 
-clean:
-	-rm -v *.html
+%.ascii: ../problems/%.py/task-description.ascii
+	zsh install-task-description.zsh $< $@
 
 .PHONY: build install watch clean

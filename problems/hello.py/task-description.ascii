@@ -1,7 +1,7 @@
 ////
 The format of this document is `asciidoc`, and it will be compiled with:
 
-   $ asciidoctor --embeded task-description.ascii
+   $ asciidoctor task-description.ascii
 
 This generates the HTML which will be included on the website.
 
@@ -11,7 +11,7 @@ work, before we start worrying about more complicated things.)
 ////
 
 // //////////////////////////////////////////////////////////////
-=== Hello (getting started)
+= Hello (getting started)
 
 .Task
 ****
