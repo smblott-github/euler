@@ -1,0 +1,50 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor --embeded task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+= Euler 3
+
+****
+Euler problem 3: https://projecteuler.net/problem=3[].
+****
+
+.Composite numbers
+****
+https://en.wikipedia.org/wiki/Composite_number[Composite numbers] are numbers which have more than 2 factors
+(i.e. factors other than 1 and itself).
+They are essentially the opposite of prime numbers.
+
+Composite numbers can also be written as a product of only prime numbers, even if it has a composite factor.
+
+For example, 18 can be factorised as 2 and 9, which can also be written as 2, 3 and 3.
+This property is relevant to the problem below.
+****
+
+// //////////////////////////////////////////////////////////////
+== Python
+
+.Task
+****
+Assume a single command-line argument, a positive, composite integer $n$.
+
+Write a python script named `euler-3-largest-prime-factor.py` which writes the largest prime factor of $n$
+to standard output.
+****
+
+.Example invocation
+----
+$ python3 euler-6-sum-square-difference.py 13195
+----
+
+.Example standard output
+----
+29
+----
+
+.Explanation
+****
+The prime factors of 13195 are 5, 7, 13 and 29, 29 being the largest.
+****

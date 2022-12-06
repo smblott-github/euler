@@ -1,0 +1,14 @@
+$ python3 euler-5-smallest-multiple.py 2
+6
+$ python3 euler-5-smallest-multiple.py 4
+60
+$ python3 euler-5-smallest-multiple.py 5
+60
+$ python3 euler-5-smallest-multiple.py 10
+27720
+$ python3 euler-5-smallest-multiple.py 20
+232792560
+$ python3 euler-5-smallest-multiple.py 50
+3099044504245996706400
+$ python3 euler-5-smallest-multiple.py 100
+7041757898200960193617914702466542659236800

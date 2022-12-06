@@ -1,0 +1,65 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor --embeded task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+= Euler 4
+
+****
+Euler problem 4: https://projecteuler.net/problem=4[].
+****
+
+.Palindromic numbers
+****
+https://en.wikipedia.org/wiki/Palindromic_number[Palindromic numbers] are numbers that read the same forwards and backwards.
+
+Examples of palindromic numbers include:
+- 4
+- 99
+- 5335
+****
+
+// //////////////////////////////////////////////////////////////
+== Python
+
+.Task
+****
+Assume a single command-line argument, a positive integer $n$ in the range $1 \le n \le 4$.
+
+Write a python script named `euler-4-largest-palindrome-product.py` which writes the largest palindromic number that is
+the product of two $n$ digit numbers to standard output.
+****
+
+.Example invocation
+----
+$ python3 euler-4-largest-palindrome-product.py 1
+----
+
+.Example standard output
+----
+9
+----
+
+.Explanation
+****
+The largest palindromic product of two 1-digit numbers is $9 \times 1 = 9$.
+It may be counter intuitive, but all single digit numbers are palindromes.
+****
+
+.Example invocation
+----
+$ python3 euler-4-largest-palindrome-product.py 2
+----
+
+.Example standard output
+----
+9009
+----
+
+.Explanation
+****
+The largest palindromic product of two 2-digit numbers is $99 \times 91 = 9009$.
+Note that the answer isn't $9999$, because it can't be represented as a product of two 2-digit numbers.
+****

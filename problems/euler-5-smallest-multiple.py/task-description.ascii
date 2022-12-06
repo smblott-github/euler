@@ -1,0 +1,51 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor --embeded task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+= Euler 5
+
+****
+Euler problem 5: https://projecteuler.net/problem=5[].
+****
+
+.Least Common Multiple (LCM)
+****
+The https://en.wikipedia.org/wiki/Least_common_multiple[Least Common Multiple], or LCM,
+of a sequence of numbers is the lowest number that can be evenly divided by each number
+in the sequence.
+
+For example, the LCM of $2$, $3$ and $4$ is $12$.
+
+The most important point to note is that multiplying the numbers in the sequence
+together doesn't necessarily give the LCM. In the above sequence, this would be
+$2 \times 3 \times 4 = 24$, which is incorrect.
+****
+
+// //////////////////////////////////////////////////////////////
+== Python
+
+.Task
+****
+Assume a single command-line argument, a positive integer $n$, where $n \ge 2$.
+
+Write a python script named `euler-5-smallest-multiple.py` which writes the LCM of $1, 2, 3, ..., n$
+to standard output.
+****
+
+.Example invocation
+----
+$ python3 euler-5-smallest-multiple.py 4
+----
+
+.Example standard output
+----
+12
+----
+
+.Explanation
+****
+The lowest number evenly divisible by $1$, $2$, $3$ and $4$ is 12.
+****

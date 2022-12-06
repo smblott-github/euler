@@ -45,6 +45,10 @@ Also, _please, please, please do consider contributing_!
 - Stephen Blott (stephen.blott@dcu.ie) +
   `euler-1-multiples-of-3-or-5.py`
 - Sam McElligott (sam.mcelligott3@mail.dcu.ie) +
+  `euler-2-even-fibonacci-numbers.py`
+  `euler-3-largest-prime-factor.py`
+  `euler-4-largest-palindrome-product.py`
+  `euler-5-smallest-multiple.py`
   `euler-6-sum-square-difference.py`
 - Michael Redmond (michael.redmond29@mail.dcu.ie) +
   `euler-20-factorial-digit-sum.py` +
@@ -61,6 +65,10 @@ When you make a contribution, add your name and the task to this list.
 .Problems
 ****
 - link:euler-1-multiples-of-3-or-5.html[euler-1-multiples-of-3-or-5]
+- link:euler-2-even-fibonacci-numbers.html[euler-2-even-fibonacci-numbers]
+- link:euler-3-largest-prime-factor.html[euler-3-largest-prime-factor]
+- link:euler-4-largest-palindrome-product.html[euler-4-largest-palindrome-product]
+- link:euler-5-smallest-multiple.html[euler-5-smallest-multiple]
 - link:euler-6-sum-square-difference.html[euler-6-sum-square-difference]
 - link:euler-20-factorial-digit-sum.html[euler-20-factorial-digit-sum]
 - link:euler-25-nth-digit-fibonacci-num.html[euler-25-nth-digit-fibonacci-num]

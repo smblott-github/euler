@@ -1,0 +1,8 @@
+$ python3 euler-4-largest-palindrome-product.py 1
+9
+$ python3 euler-4-largest-palindrome-product.py 2
+9009
+$ python3 euler-4-largest-palindrome-product.py 3
+906609
+$ python3 euler-4-largest-palindrome-product.py 4
+99000099
