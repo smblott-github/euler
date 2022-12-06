@@ -29,6 +29,8 @@ The command-line arguments consist of exactly one argument, a positive integer $
 
 Write a python script named `euler-2-even-fibonacci-numbers.py` which writes the sum of the even Fibonacci numbers
 which are less than $n$ to standard output.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
 ****
 
 .Example invocation

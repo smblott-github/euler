@@ -30,6 +30,8 @@ Assume a single command-line argument, a positive integer $n$ in the range $1 \l
 
 Write a python script named `euler-4-largest-palindrome-product.py` which writes the largest palindromic number that is
 the product of two $n$ digit numbers to standard output.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
 ****
 
 .Example invocation

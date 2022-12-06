@@ -32,6 +32,8 @@ Assume a single command-line argument, a positive, composite integer $n$.
 
 Write a python script named `euler-3-largest-prime-factor.py` which writes the largest prime factor of $n$
 to standard output.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
 ****
 
 .Example invocation

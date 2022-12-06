@@ -33,6 +33,8 @@ Assume a single command-line argument, a positive integer $n$, where $n \ge 2$.
 
 Write a python script named `euler-5-smallest-multiple.py` which writes the LCM of $1, 2, 3, ..., n$
 to standard output.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
 ****
 
 .Example invocation
