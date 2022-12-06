@@ -18,8 +18,12 @@ while i > min_num and largest_palindrome < i * max_num:
         p = i * j
 
         str_p = str(p)
+        # Short circuit evaluation prevents needless palindrome check
         if (p > largest_palindrome and str_p == str_p[::-1]):
             largest_palindrome = p
+            break  # Prevents needless cycles
+        elif largest_palindrome > p:
+            break  # No matter what p is, the largest won't change until outer loop iterates
 
         j = j - 1
     i = i - 1
