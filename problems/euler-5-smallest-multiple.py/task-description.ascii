@@ -11,7 +11,7 @@ This generates the HTML which will be included on the website.
 Euler problem 5: https://projecteuler.net/problem=5[].
 ****
 
-.Least Common Multiple (LCM)
+.Least common multiple (LCM)
 ****
 The https://en.wikipedia.org/wiki/Least_common_multiple[Least Common Multiple], or LCM,
 of a sequence of numbers is the lowest number that can be evenly divided by each number

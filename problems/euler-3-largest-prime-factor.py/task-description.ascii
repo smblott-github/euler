@@ -38,7 +38,7 @@ Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
 
 .Example invocation
 ----
-$ python3 euler-6-sum-square-difference.py 13195
+$ python3 euler-3-largest-prime-factor.py 13195
 ----
 
 .Example standard output
