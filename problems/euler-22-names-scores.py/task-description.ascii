@@ -30,7 +30,7 @@ Finally prints the total of all the name scores in the file.
 Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
 ****
 
-.Example contents names.txt (your input)
+.Example contents `names.txt` (your input)
 ----
 "SABRINA","COLIN","LINDA"
 ----

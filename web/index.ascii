@@ -53,6 +53,8 @@ Also, _please, please, please do consider contributing_!
 - Michael Redmond (michael.redmond29@mail.dcu.ie) +
   `euler-20-factorial-digit-sum.py` +
   `euler-25-nth-digit-fibonacci-num.py`
+- Giuseppe Esposito (giuseppe.esposito2@mail.dcu.ie) +
+  `euler-22-names-scores.py`
 
 When you make a contribution, add your name and the task to this list.
 ****
@@ -71,6 +73,7 @@ When you make a contribution, add your name and the task to this list.
 - link:euler-5-smallest-multiple.html[euler-5-smallest-multiple]
 - link:euler-6-sum-square-difference.html[euler-6-sum-square-difference]
 - link:euler-20-factorial-digit-sum.html[euler-20-factorial-digit-sum]
+- link:euler-22-names-scores.html[euler-22-names-scores]
 - link:euler-25-nth-digit-fibonacci-num.html[euler-25-nth-digit-fibonacci-num]
 ****
 
