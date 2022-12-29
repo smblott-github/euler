@@ -55,6 +55,8 @@ Also, _please, please, please do consider contributing_!
   `euler-25-nth-digit-fibonacci-num.py`
 - Giuseppe Esposito (giuseppe.esposito2@mail.dcu.ie) +
   `euler-22-names-scores.py`
+- Killian Daly (killian.daly34@mail.dcu.ie) +
+  `euler-8-largest-product-in-a-series.py`
 
 When you make a contribution, add your name and the task to this list.
 ****
@@ -72,6 +74,7 @@ When you make a contribution, add your name and the task to this list.
 - link:euler-4-largest-palindrome-product.html[euler-4-largest-palindrome-product]
 - link:euler-5-smallest-multiple.html[euler-5-smallest-multiple]
 - link:euler-6-sum-square-difference.html[euler-6-sum-square-difference]
+- link:euler-8-largest-product-in-a-series.html[euler-8-largest-product-in-a-series]
 - link:euler-20-factorial-digit-sum.html[euler-20-factorial-digit-sum]
 - link:euler-22-names-scores.html[euler-22-names-scores]
 - link:euler-25-nth-digit-fibonacci-num.html[euler-25-nth-digit-fibonacci-num]
