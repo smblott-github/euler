@@ -1,0 +1,14 @@
+$ python3 euler-8-largest-product-in-a-series.py 0
+0
+$ python3 euler-8-largest-product-in-a-series.py 4
+5832
+$ python3 euler-8-largest-product-in-a-series.py 6
+285768
+$ python3 euler-8-largest-product-in-a-series.py 8
+7838208
+$ python3 euler-8-largest-product-in-a-series.py 10
+493807104
+$ python3 euler-8-largest-product-in-a-series.py 13
+23514624000
+$ python3 euler-8-largest-product-in-a-series.py 14
+70573265280

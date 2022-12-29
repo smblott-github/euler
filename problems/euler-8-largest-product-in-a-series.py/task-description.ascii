@@ -1,0 +1,45 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+// //////////////////////////////////////////////////////////////
+= Euler 8
+
+****
+Euler problem 8: https://projecteuler.net/problem=8[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Python
+
+.Task
+****
+Assume a single command-line argument, a non-negative integer $n$.
+Standard input consists of a non-negative 1000 digit integer.
+
+Write a python script named `euler-8-largest-product-in-a-series.py` which writes the greatest product of $n$ 
+adjacent digits within the input integer.
+
+For example, if $n$ is 4 and 9999 occurs in the digit then the greatest product would be 9 x 9 x 9 x 9 = 6561.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ python3 euler-8-largest-product-in-a-series.py 4
+----
+
+.Example standard output
+----
+5832
+----
+
+.Explanation
+****
+The product of 9, 9, 8, and 9 is 5832.
+****
