@@ -1,0 +1,50 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+// //////////////////////////////////////////////////////////////
+= Euler 29
+
+****
+Euler problem 29: https://projecteuler.net/problem=29[].
+****
+
+// //////////////////////////////////////////////////////////////
+== R
+
+.Task
+****
+Assume a single command-line argument, a non-negative integer $x$.
+
+Consider all combinations of a to the power of b where a and b are 
+between 2 and x inclusive.
+
+Write an R script named `euler-29-distinct-powers` which writes the number 
+of distinct terms in the sequence to standard output.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ Rscript euler-29-distinct-powers.R 5
+----
+
+.Example standard output
+----
+15
+----
+
+.Explanation
+****
+2 to the power of 2 is 4, 2 to the power of 3 is 8, ..., 5 to the power 
+of 5 is 3125.
+
+When placed in numerical order with no ducplicates we get:
+4, 8, 9, 16, 25, 27, 32, 64, 81, 125, 243, 256, 625, 1024, 3125
+This is 15 terms.
+****
