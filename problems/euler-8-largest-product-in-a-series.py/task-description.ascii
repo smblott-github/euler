@@ -21,7 +21,7 @@ Euler problem 8: https://projecteuler.net/problem=8[].
 Standard input consists of a 1000-digit non-negative integer, also
 assume a single command-line argument, a non-negative integer $n$.
 
-Write a python script named `euler-8-largest-product-in-a-series.py` 
+Write a python script named `euler-8-largest-product-in-a-series.py`
 which writes the greatest product of $n$ adjacent digits in the 1000-digit number.
 
 Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
@@ -45,5 +45,6 @@ $ python3 euler-8-largest-product-in-a-series.py 4
 
 .Explanation
 ****
-The four adjacent digits in the 1000-digit number that have the greatest product are 9 × 9 × 8 × 9 = 5832
+The four adjacent digits in the 1000-digit number that have the greatest product are
+$9 times 9 times 8 times 9 = 5832$.
 ****
