@@ -1,4 +1,0 @@
-$ python3 euler-8-largest-product-in-a-series.py 4
-6561
-$ python3 euler-8-largest-product-in-a-series.py 13
-2541865828329

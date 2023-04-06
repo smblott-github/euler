@@ -12,11 +12,15 @@
 #
 set -e
 
+print "test input..."
+cat input.txt
+print
+
 # The show-exec-command is available in the Einstein execution environment.
 # It is also available in the `bin` directory in the project repo.  You can
 # install it locally from there for testing.
 #
-for v in 4 5 10 13
+for v in 4 13
 do
-  show-exec-command python3 $TASK $v
+  show-exec-command python3 $TASK $v < input.txt
 done
