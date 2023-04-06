@@ -1,1 +1,9 @@
+$ g++ -Wall -Wextra -Werror euler-even-fibonacci-numbers.cpp
+$ ./a.out 8
+10
+$ ./a.out 34
+44
+$ ./a.out 4000000
 4613732
+$ ./a.out 10000000
+19544084

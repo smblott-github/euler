@@ -1,0 +1,7 @@
+$ g++ -Wall -Wextra -Werror euler-even-fibonacci-numbers.cpp
+$ ./a.out 100
+188
+$ ./a.out 100000
+60696
+$ ./a.out 20000000
+19544084
