@@ -1,0 +1,2 @@
+$ Rscript euler-4-largest-palindrome-product.r 4
+99000099
