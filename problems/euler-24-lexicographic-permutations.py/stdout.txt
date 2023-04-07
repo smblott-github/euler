@@ -1,0 +1,8 @@
+$ java euler_problem_24.java 2
+0123456798
+$ java euler_problem_24.java 10
+0123457896
+$ java euler_problem_24.java 100
+0123495786
+$ java euler_problem_24.java 1000000
+2783915460
