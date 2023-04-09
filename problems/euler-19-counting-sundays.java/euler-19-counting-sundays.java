@@ -7,7 +7,7 @@
 
 import java.util.*;
 
-public class Euler19 {
+public class euler-19-counting-sundays {
 	public static void main(String[] args) {
 		int choice = Integer.parseInt(args[0]);
 		sundays(choice);
