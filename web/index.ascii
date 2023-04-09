@@ -57,6 +57,8 @@ Also, _please, please, please do consider contributing_!
   `euler-22-names-scores.py`
 - Jamie Gorman (jamie.gorman24@mail.dcu.ie) +
   `euler-8-largest-product-in-a-series.py`
+- Martina Freed (martina.freed2@mail.dcu.ie) +
+  'euler-19-counting-sundays.java'
 
 When you make a contribution, add your name and the task to this list.
 ****
@@ -78,6 +80,7 @@ When you make a contribution, add your name and the task to this list.
 - link:euler-20-factorial-digit-sum.html[euler-20-factorial-digit-sum]
 - link:euler-22-names-scores.html[euler-22-names-scores]
 - link:euler-25-nth-digit-fibonacci-num.html[euler-25-nth-digit-fibonacci-num]
+- link:euler-19-counting-sundays.html[euler-19-counting-sundays.java]
 ****
 
 '''

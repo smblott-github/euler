@@ -1,0 +1,41 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+// //////////////////////////////////////////////////////////////
+= Euler 19
+
+****
+Euler problem 19 https://projecteuler.net/problem=19[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Java
+
+.Task
+****
+Assume a single command-line argument, a year during the twentieth century or later (1901 or later)
+
+Write a java program named `euler-19-counting-sundays.java' that counts the number of Sundays there have been in the first month of the years since the start of the 20th century (Jan 1 1901) to the end of a specified year. For example, if the command-line argument is 2000, the program will count how many Sundays there were in the Januarys from Jan 1 1901 to Dec 31 2000.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ java euler-19-counting-sundays.java 2000
+----
+
+.Example standard output
+----
+
+----
+
+.Explanation
+****
+There were 5217 Sundays in the first months of the  twentieth century (between Jan 1 1901 and Dec 31 2000).
+****
