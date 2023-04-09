@@ -1,0 +1,43 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+// //////////////////////////////////////////////////////////////
+= Euler 1
+
+****
+Euler problem 1: https://projecteuler.net/problem=1[].
+****
+
+// //////////////////////////////////////////////////////////////
+== JavaScript
+
+.Task
+****
+Assume a single command-line argument, a non-negative integer $n$.
+
+Write a Java Script program named `euler-1-multiples-of-3-or-5.js` which writes the sum
+of all positive integers less than $n$ which are divisible by either 3 or 5 to standard output.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ node euler-1-multiples-of-3-or-5.js 15
+----
+
+.Example standard output
+----
+45
+----
+
+.Explanation
+****
+The sum of 3, 5, 6, 9, 10, 12 is 45.
+****
+
