@@ -1,16 +1,16 @@
-$ python3 euler-2-even-fibonacci-numbers.py 5
+$ node euler-2-even-fibonacci-numbers.py 5
 2
-$ python3 euler-2-even-fibonacci-numbers.py 10
+$ node euler-2-even-fibonacci-numbers.py 10
 10
-$ python3 euler-2-even-fibonacci-numbers.py 20
+$ node euler-2-even-fibonacci-numbers.py 20
 10
-$ python3 euler-2-even-fibonacci-numbers.py 22
+$ node euler-2-even-fibonacci-numbers.py 22
 10
-$ python3 euler-2-even-fibonacci-numbers.py 35
+$ node euler-2-even-fibonacci-numbers.py 35
 44
-$ python3 euler-2-even-fibonacci-numbers.py 50
+$ node euler-2-even-fibonacci-numbers.py 50
 44
-$ python3 euler-2-even-fibonacci-numbers.py 100
+$ node euler-2-even-fibonacci-numbers.py 100
 44
-$ python3 euler-2-even-fibonacci-numbers.py 150
+$ node euler-2-even-fibonacci-numbers.py 150
 188
