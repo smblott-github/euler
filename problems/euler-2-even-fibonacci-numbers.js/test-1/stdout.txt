@@ -1,0 +1,14 @@
+$ python3 euler-2-even-fibonacci-numbers.py 12
+10
+$ python3 euler-2-even-fibonacci-numbers.py 36
+44
+$ python3 euler-2-even-fibonacci-numbers.py 48
+44
+$ python3 euler-2-even-fibonacci-numbers.py 105
+44
+$ python3 euler-2-even-fibonacci-numbers.py 172
+188
+$ python3 euler-2-even-fibonacci-numbers.py 209
+188
+$ python3 euler-2-even-fibonacci-numbers.py 300
+188
