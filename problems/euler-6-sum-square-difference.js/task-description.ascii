@@ -1,0 +1,50 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+// //////////////////////////////////////////////////////////////
+= Euler 6
+
+****
+Euler problem 6: https://projecteuler.net/problem=6[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Javascript
+
+.Task
+****
+Assume a single command-line argument, a non-negative integer $n$.
+
+Write a javascript script named `euler-6-sum-square-difference.js` which writes the difference
+between the square of the sum and the sum of the squares of every positive integer from $1$ to $n$ (both inclusive)
+to standard output.
+
+In other words, your script should output the difference between:
+
+- $(1 + 2 + ... + n)^2$
+- $1^2 + 2^2 + ... + n^2$
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ node euler-6-sum-square-difference.js 5
+----
+
+.Example standard output
+----
+170
+----
+
+.Explanation
+****
+- $(1 + 2 + 3 + 4 + 5)^2 = 225$ +
+  $1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 55$
+- $225 - 55 = 170$
+****
