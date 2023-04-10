@@ -1,0 +1,11 @@
+$ node euler-1-multiples-of-3-or-5.js 1
+0
+$ node euler-1-multiples-of-3-or-5.js 150
+5175
+$ node euler-1-multiples-of-3-or-5.js 225
+11700
+$ node euler-1-multiples-of-3-or-5.js 250
+122043
+$ node euler-1-multiples-of-3-or-5.js 750
+693450
+
