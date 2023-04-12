@@ -16,7 +16,7 @@ set -e
 # It is also available in the `bin` directory in the project repo.  You can
 # install it locally from there for testing.
 #
-for v in 1 150 225 725 1725
+for v in 1 150 225 250 750
 do
   show-exec-command node $TASK $v
 done
