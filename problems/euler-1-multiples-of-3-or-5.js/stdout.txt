@@ -12,4 +12,3 @@ $ node euler-1-multiples-of-3-or-5.js 1000
 233168
 $ node euler-1-multiples-of-3-or-5.js 50000
 583291668
-
