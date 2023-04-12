@@ -13,11 +13,11 @@
 set -e
 
 # Compile the program
-make
+make -C ../.
 
 # Execute the program with the specified grid.txt file
 if [ -f grid.txt ]; then
-    ./euler-11-largest-product grid.txt
+    ../euler-11-largest-product grid.txt
 else
     echo "Error: grid.txt not found."
     exit 1
