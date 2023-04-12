@@ -1,0 +1,14 @@
+$ node euler-2-even-fibonacci-numbers.js 12
+10
+$ node euler-2-even-fibonacci-numbers.js 35
+44
+$ node euler-2-even-fibonacci-numbers.js 49
+44
+$ node euler-2-even-fibonacci-numbers.js 104
+44
+$ node euler-2-even-fibonacci-numbers.js 173
+188
+$ node euler-2-even-fibonacci-numbers.js 208
+188
+$ node euler-2-even-fibonacci-numbers.js 301
+188
