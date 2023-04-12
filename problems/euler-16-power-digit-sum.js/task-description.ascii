@@ -1,0 +1,45 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+// //////////////////////////////////////////////////////////////
+= Euler 16
+
+****
+Euler problem 16: https://projecteuler.net/problem=16[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Javascript
+
+.Task
+****
+Assume a single command-line argument, a non-negative integer $n$.
+
+Write a javascript script named `euler-16-power-digit-sum.js` which computes the sum of digits
+of 2 to the power of any non-negative integer. That non-negative integer must be specified through
+the command line.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ node euler-16-power-digit-sum.js 10
+----
+
+.Example standard output
+----
+7
+----
+
+.Explanation
+****
+2^10 = 1024
+1 + 0 + 2 + 4 = 7
+Therefore, the expected output is 7
+****
