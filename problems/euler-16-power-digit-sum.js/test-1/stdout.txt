@@ -8,3 +8,5 @@ $ node euler-16-power-digit-sum.js 711
 971
 $ node euler-16-power-digit-sum.js 1000
 1366
+
+
