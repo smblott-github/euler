@@ -8,4 +8,3 @@ $ node euler-1-multiples-of-3-or-5.js 250
 122043
 $ node euler-1-multiples-of-3-or-5.js 750
 693450
-
