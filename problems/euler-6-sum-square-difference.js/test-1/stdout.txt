@@ -1,0 +1,10 @@
+$ node euler-6-sum-square-difference.js 7
+644
+$ node euler-6-sum-square-difference.js 19
+33630
+$ node euler-6-sum-square-difference.js 42
+789824
+$ node euler-6-sum-square-difference.js 56
+2487100
+$ node euler-6-sum-square-difference.js 341
+3386897250
