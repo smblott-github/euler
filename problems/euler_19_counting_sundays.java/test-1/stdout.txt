@@ -1,0 +1,10 @@
+$ java euler-19-counting-sundays.java 1905
+22
+$ java euler-19-counting-sundays.java 1908
+34
+$ java euler-19-counting-sundays.java 1955
+243
+$ java euler-19-counting-sundays.java 1963
+278
+$ java euler-19-counting-sundays.java 1970
+309
