@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
         }
     }
 
-    std::cout << sum << std::endl;
+    std::cout << sum;
 
     return 0;
 }
