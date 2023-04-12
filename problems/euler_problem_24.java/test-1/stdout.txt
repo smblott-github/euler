@@ -1,0 +1,8 @@
+$ java euler_problem_24.java 15
+0123458769
+$ java euler_problem_24.java 58
+0123476895
+$ java euler_problem_24.java 243
+0123645879
+$ java euler_problem_24.java 1785
+0125694738
