@@ -1,0 +1,10 @@
+$ ./euler-1-multiples-of-3-or-5_compiled 25
+143
+$ ./euler-1-multiples-of-3-or-5_compiled 75
+1275
+$ ./euler-1-multiples-of-3-or-5_compiled 125
+3543
+$ ./euler-1-multiples-of-3-or-5_compiled 250
+14543
+$ ./euler-1-multiples-of-3-or-5_compiled 750
+130875
