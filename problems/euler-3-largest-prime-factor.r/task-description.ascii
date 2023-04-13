@@ -1,0 +1,52 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor --embeded task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+= Euler 3
+   
+****
+Euler problem 3: https://projecteuler.net/problem=3[].
+****
+
+.Palindromic numbers
+****
+https://en.wikipedia.org/wiki/Composite_number[Composite numbers] are numbers which have more than 2 factors (i.e. factors other than 1 and itself). They are essentially the opposite of prime numbers.
+
+Examples of Composite numbers include:
+- 18
+- 85
+- 12345
+****
+
+// //////////////////////////////////////////////////////////////
+== R
+
+.Task
+****
+Assume a single command-line argument, a positive natural number.
+
+Write a python script named 'euler-3-largest-prime-factor.r' which writes the largest prime factor of 
+n to standard output.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ Rscript euler-3-largest-prime-factor.r 85
+----
+
+.Example standard output
+----
+The largest prime factor of 85 is: 17
+----
+
+.Explanation
+****
+The largest prime factor of 85 is 17 as its a factor of 85($17 \times 5$)
+and a prime number.
+****
+
