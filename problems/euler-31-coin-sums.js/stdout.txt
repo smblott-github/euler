@@ -1,10 +1,10 @@
-$node euler-31-coin-sums.js 20
+$ node euler-31-coin-sums.js 20
 41
-$node euler-31-coin-sums.js 25
+$ node euler-31-coin-sums.js 25
 68
-$node euler-31-coin-sums.js 52
+$ node euler-31-coin-sums.js 52
 508
-$node euler-31-coin-sums.js 88
+$ node euler-31-coin-sums.js 88
 2866
-$node euler-31-coin-sums.js 100
+$ node euler-31-coin-sums.js 100
 4563
