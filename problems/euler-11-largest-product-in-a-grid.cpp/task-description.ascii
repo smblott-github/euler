@@ -1,0 +1,49 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+// //////////////////////////////////////////////////////////////
+= Euler 11: Largest Product in a Grid
+
+****
+Euler problem 11: https://projecteuler.net/problem=11[].
+****
+
+// //////////////////////////////////////////////////////////////
+== C++
+
+.Task
+****
+In the 20×20 grid below, four numbers along a diagonal line have been marked in red.
+
+(The grid will be provided as an example in the text file format)
+
+The product of these numbers is 26 × 63 × 78 × 14 = 1788696.
+
+What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20×20 grid?
+
+Write a C++ program named `euler-11-largest-product-in-a-grid.cpp` that reads the grid from a text file and writes the largest product of 4 adjacent numbers to the standard output.
+
+The text file containing the grid will be provided as a command-line argument.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ ./euler-11-largest-product grid.txt
+----
+
+.Example standard output
+----
+Largest product of 4 adjacent numbers: 70600674
+----
+
+.Explanation
+****
+The largest product of 4 adjacent numbers in the given grid is 70600674.
+****
