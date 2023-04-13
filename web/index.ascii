@@ -61,6 +61,8 @@ Also, _please, please, please do consider contributing_!
   `euler-29-distinct-powers.R`
 - Caoimhe Duignan (caoimhe.duignan8@mail.dcu.ie) +
   `euler-4-largest-palindrome-product.r`
+- Martina Freed (martina.freed2@mail.dcu.ie) +
+  'euler-19-counting-sundays.java'
 
 When you make a contribution, add your name and the task to this list.
 ****
@@ -82,6 +84,7 @@ When you make a contribution, add your name and the task to this list.
 - link:euler-20-factorial-digit-sum.html[euler-20-factorial-digit-sum]
 - link:euler-22-names-scores.html[euler-22-names-scores]
 - link:euler-25-nth-digit-fibonacci-num.html[euler-25-nth-digit-fibonacci-num]
+- link:euler-19-counting-sundays.html[euler-19-counting-sundays.java]
 ****
 
 ////
@@ -93,6 +96,7 @@ add euler-1-multiples-of-3-or-5.cpp
 add euler-1-multiples-of-3-or-5.js
 euler-4-largest-palindrome-product.r
 euler-3-largest-prime-factor.c
+euler_19_counting_sundays.java
 ////
 '''
 

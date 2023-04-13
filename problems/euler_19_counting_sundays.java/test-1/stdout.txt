@@ -1,0 +1,10 @@
+$ java euler_19_counting_sundays 1905
+22
+$ java euler_19_counting_sundays 1908
+34
+$ java euler_19_counting_sundays 1955
+243
+$ java euler_19_counting_sundays 1963
+278
+$ java euler_19_counting_sundays 1970
+309
