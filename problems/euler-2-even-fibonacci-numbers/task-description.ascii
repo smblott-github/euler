@@ -28,20 +28,19 @@ Your task is to calculate the sum of all even terms whose values do not exceed N
 
 Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
 ****
+
 .Example invocation
 ---
-//1) compile the program. The flags will make the compiler //show additional error messages for easier debugging
 $ c++ -Wall -Wextra -Werror euler-2-even-fibonacci-numbers.cpp
-//2) Run the program with command line argument N
-./a.out N
+./a.out 10
 ---
 
 .Example standard output
 ---
 10
 ---
-.Eplanation
+
+.Explanation
 ***
 The only even Fibonacci neumbers wich are less then 20 are 2 and 8, wich sum are 10
 ***
-\n
