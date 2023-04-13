@@ -1,1 +1,0 @@
-Largest product of 4 adjacent numbers: 70600674
