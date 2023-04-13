@@ -1,0 +1,42 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+// //////////////////////////////////////////////////////////////
+= Euler 31
+
+****
+Euler problem 31: https://projecteuler.net/problem=31[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Javascript
+
+.Task
+****
+The command-line arguments consist of exactly one argument, a positive integer $total$.
+
+Write a javascript script named `euleur-31-coin-sums.js` which writes how many different ways can $total pence be made using any number of coins (1p, 2p, 5p, 10p, 20p, 50p, £1 (100p), and £2 (200p)) to standard output.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ node euleur-31-coin-sums.js 200
+----
+
+.Example standard output
+----
+73682
+----
+
+.Explanation
+****
+There are 73682 ways to get £2 with these coins (1p, 2p, 5p, 10p, 20p, 50p, £1 (100p), and £2 (200p)).
+****
+
