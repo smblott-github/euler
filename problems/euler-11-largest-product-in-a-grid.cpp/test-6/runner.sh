@@ -13,7 +13,7 @@
 set -e
 
 # Compile the program
-( cd "$(dirname "$0")/.." && make )
+( cd "$(dirname "$0")/.." && make -f ../Makefile )
 
 
 # Execute the program with the specified grid.txt file
