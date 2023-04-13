@@ -12,7 +12,7 @@
 #
 set -e
 
-show-exec-command gcc $TASK -o executable
+show-exec-command gcc $TASK -lm -o executable
 
 # The show-exec-command is available in the Einstein execution environment.
 # It is also available in the `bin` directory in the project repo.  You can

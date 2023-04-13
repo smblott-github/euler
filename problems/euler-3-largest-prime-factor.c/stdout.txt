@@ -1,4 +1,4 @@
-$ gcc euler-3-largest-prime-factor.c -o executable
+$ gcc euler-3-largest-prime-factor.c -lm -o executable
 $ ./executable 10
 5
 $ ./executable 1001
