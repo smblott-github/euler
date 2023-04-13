@@ -13,8 +13,8 @@
 set -e
 
 # Compile the program
-( cd "$(dirname "$0")/.." && make )
-
+make clean -C ../.
+make -C ../.
 
 # Execute the program with the specified grid.txt file
 if [ -f grid.txt ]; then
