@@ -12,6 +12,9 @@
 #
 set -e
 
+# Compile user's Java code
+javac $TASK
+
 # The show-exec-command is available in the Einstein execution environment.
 # It is also available in the `bin` directory in the project repo.  You can
 # install it locally from there for testing.
