@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # The TASK environment variable will be set automatically in the Einstein execution
 # environment.
@@ -13,7 +13,8 @@
 set -e
 
 # Compile the program
-make -C ../.
+( cd "$(dirname "$0")/.." && make )
+
 
 # Execute the program with the specified grid.txt file
 if [ -f grid.txt ]; then

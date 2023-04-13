@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # The TASK environment variable will be set automatically in the Einstein execution
 # environment.
