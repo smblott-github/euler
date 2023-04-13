@@ -15,6 +15,7 @@ set -e
 # Compile the program
 ( cd "$(dirname "$0")/.." && make )
 
+
 # Execute the program with the specified grid.txt file
 if [ -f grid.txt ]; then
     ../euler-11-largest-product grid.txt
