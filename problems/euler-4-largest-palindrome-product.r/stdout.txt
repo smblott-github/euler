@@ -1,0 +1,6 @@
+$ Rscript euler-4-largest-palindrome-product.r 1
+[1] 9
+$ Rscript euler-4-largest-palindrome-product.r 2
+[1] 9009
+$ Rscript euler-4-largest-palindrome-product.r 3
+[1] 906609

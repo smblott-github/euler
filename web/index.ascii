@@ -59,6 +59,8 @@ Also, _please, please, please do consider contributing_!
   `euler-8-largest-product-in-a-series.py`
 - Orlaith Quinn (orlaith.quinn22@mail.dcu.ie) +
   `euler-29-distinct-powers.R`
+- Caoimhe Duignan (caoimhe.duignan8@mail.dcu.ie) +
+  `euler-4-largest-palindrome-product.r`
 
 When you make a contribution, add your name and the task to this list.
 ****
@@ -89,6 +91,7 @@ add euler-6-sum-square-difference.js
 add euler-2-even-fibonacci-numbers.js
 add euler-1-multiples-of-3-or-5.cpp
 add euler-1-multiples-of-3-or-5.js
+euler-4-largest-palindrome-product.r
 ////
 '''
 
