@@ -1,4 +1,4 @@
-public class euler_problem_24 {
+public class euler_24_lexicographic_permutations {
     public static int count = 0;
     public static String result = "";
 
@@ -22,6 +22,3 @@ public class euler_problem_24 {
         System.out.println(result);
     }
 }
-
-
-

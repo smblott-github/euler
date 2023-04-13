@@ -16,7 +16,7 @@ set -e
 # It is also available in the `bin` directory in the project repo.  You can
 # install it locally from there for testing.
 #
-for v in 15 58 243 1785
+for v in 2 10 100 1000000
 do
-  show-exec-command java $TASK $v
+  show-exec-command java ${TASK%.java} $v
 done
