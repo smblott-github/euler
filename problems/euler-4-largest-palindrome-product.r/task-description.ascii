@@ -26,10 +26,10 @@ Examples of palindromic numbers include:
 
 .Task
 ****
-Assume a single command-line argument, a positive integer $n$ in the range $1 \le n \le 4$.
+Assume a single command-line argument, a positive integer n in the range 1 to 4.
 
 Write a R script named `euler-4-largest-palindrome-product.r` which writes the largest palindromic number that is
-the product of two $n$ digit numbers to standard output.
+the product of two n digit numbers to standard output.
 
 Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
 ****
