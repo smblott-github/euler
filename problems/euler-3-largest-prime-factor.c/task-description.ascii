@@ -1,0 +1,42 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+// //////////////////////////////////////////////////////////////
+= Euler 3
+
+****
+Euler problem 3: https://projecteuler.net/problem=3.
+****
+
+// //////////////////////////////////////////////////////////////
+== C
+
+.Task
+****
+Assume a single command-line argument, a non-negative integer $n$.
+
+Write a C script named `euler-3-largest-prime-factor.c` which writes the largest prime factor of 
+the number $n$ to standard output.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example invocation
+----
+$ ./euler-1-multiples-of-3-or-5 6857
+----
+
+.Example standard output
+----
+6857
+----
+
+.Explanation
+****
+The largest prime factor of the number 600851475143 is 6857.
+****

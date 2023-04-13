@@ -1,0 +1,13 @@
+$ gcc euler-3-largest-prime-factor.c -lm -o executable
+$ ./executable 10
+5
+$ ./executable 1001
+13
+$ ./executable 1003
+59
+$ ./executable 10991
+379
+$ ./executable 100245
+163
+$ ./executable 1000001
+9901
