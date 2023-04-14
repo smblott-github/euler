@@ -17,4 +17,3 @@ filename="grid.txt"
 
 show-exec-command g++ -std=c++11 -Wall -Wextra -O2 -o ${TASK%.cpp} $TASK
 show-exec-command ./${TASK%.cpp} $filename
-z
