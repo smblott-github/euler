@@ -14,7 +14,7 @@ set -e
 
 # Compile the program
 make clean -C ../.
-show-exec-command g++ .... -o ${TASK%.cpp} $TASK
+g++ -std=c++11 -Wall -Wextra -O2 -o ${TASK%.cpp} $TASK
 show-exec-command ./${TASK%.cpp}
 
 # Execute the program with the specified grid.txt file

@@ -15,7 +15,7 @@ set -e
 show-exec-command cat grid.txt
 
 # Compile the program
-show-exec-command g++ .... -o ${TASK%.cpp} $TASK
+g++ -std=c++11 -Wall -Wextra -O2 -o ${TASK%.cpp} $TASK
 show-exec-command ./${TASK%.cpp}
 
 # Execute the program with grid.txt as an argument
