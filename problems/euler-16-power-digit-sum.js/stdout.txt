@@ -12,3 +12,4 @@ $ node euler-16-power-digit-sum.js 300
 424
 $ node euler-16-power-digit-sum.js 1000
 1366
+
