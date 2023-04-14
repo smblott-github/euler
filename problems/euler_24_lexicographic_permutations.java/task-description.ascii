@@ -1,0 +1,39 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+// //////////////////////////////////////////////////////////////
+= Euler 24
+
+****
+Euler problem 24: https://projecteuler.net/problem=24[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Java
+
+.Task
+****
+
+Write code that gives the N-th lexicographic permutation of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9, where N is provided as a command-line argument?
+
+****
+
+.Example invocation
+----
+$ javac euler_problem_24.java && java euler_problem_24 100
+----
+
+.Example standard output
+----
+0123495786
+----
+
+.Explanation
+****
+The 100th lexicographic permutation of 0,1,2,3,4,5,6,7,8,9 is 0123495786
+****
