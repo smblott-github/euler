@@ -19,5 +19,5 @@ set -e
 #
 for v in 0 1 6 10 25 300 1000
 do
-  show-exec-command node $TEST $v
+  show-exec-command node $TASK $v
 done
