@@ -18,12 +18,3 @@ filename="grid.txt"
 show-exec-command cat $filename
 show-exec-command g++ -std=c++11 -Wall -Wextra -O2 -o ${TASK%.cpp} $TASK
 show-exec-command ./${TASK%.cpp} $filename
-
-
-# Execute the program with the specified grid.txt file
-if [ -f grid.txt ]; then
-    ../euler-11-largest-product grid.txt
-else
-    echo "Error: grid.txt not found."
-    exit 1
-fi
