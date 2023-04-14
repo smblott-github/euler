@@ -14,7 +14,8 @@ set -e
 
 # Compile the program
 make clean -C ../.
-make -C ../.
+show-exec-command g++ .... -o ${TASK%.cpp} $TASK
+show-exec-command ./${TASK%.cpp}
 
 # Execute the program with the specified grid.txt file
 if [ -f grid.txt ]; then
