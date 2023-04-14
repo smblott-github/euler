@@ -1,8 +1,8 @@
-$ java euler_24_lexicographic_permutations.java 15
+$ java euler_24_lexicographic_permutations 15
 0123458769
-$ java euler_24_lexicographic_permutations.java 58
+$ java euler_24_lexicographic_permutations 58
 0123476895
-$ java euler_24_lexicographic_permutations.java 243
+$ java euler_24_lexicographic_permutations 243
 0123645879
-$ java euler_24_lexicographic_permutations.java 1785
+$ java euler_24_lexicographic_permutations 1785
 0125694738
