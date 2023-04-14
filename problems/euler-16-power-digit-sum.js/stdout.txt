@@ -1,0 +1,14 @@
+$ node euler-16-power-digit-sum.js 0
+1
+$ node euler-16-power-digit-sum.js 1
+2
+$ node euler-16-power-digit-sum.js 6
+10
+$ node euler-16-power-digit-sum.js 10
+7
+$ node euler-16-power-digit-sum.js 25
+29
+$ node euler-16-power-digit-sum.js 300
+424
+$ node euler-16-power-digit-sum.js 1000
+1366
