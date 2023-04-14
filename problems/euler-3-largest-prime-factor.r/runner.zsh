@@ -16,8 +16,7 @@ set -e
 # It is also available in the `bin` directory in the project repo.  You can
 # install it locally from there for testing.
 #
-for v in 55 12345 -55 
+for v in 55 12345 77 
 do
   show-exec-command Rscript $TASK $v
-  done
-  
+done

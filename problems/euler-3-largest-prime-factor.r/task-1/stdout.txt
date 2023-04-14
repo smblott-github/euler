@@ -1,2 +1,0 @@
-$ Rscript euler-3-largest-prime-factor.r 85
-[1] The largest prime factor of 85 is: 17
