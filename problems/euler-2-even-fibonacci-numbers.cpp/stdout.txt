@@ -1,4 +1,4 @@
-$ g++ -Wall -Wextra -Werror euler-even-fibonacci-numbers.cpp
+$ g++ -Wall -Wextra -Werror euler-2-even-fibonacci-numbers.cpp
 $ ./a.out 8
 10
 $ ./a.out 34
