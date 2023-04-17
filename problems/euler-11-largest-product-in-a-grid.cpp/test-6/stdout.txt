@@ -1,3 +1,4 @@
-rm -f euler-11-largest-product
-g++ -std=c++11 -Wall -Wextra -O2 -o euler-11-largest-product euler-11-largest-product-in-a-grid.cpp
+cat grid.txt
+g++ -std=c++11 -Wall -Wextra -O2 -o euler-11-largest-product-in-a-grid euler-11-largest-product-in-a-grid.cpp
+./euler-11-largest-product-in-a-grid grid.txt
 Largest product of 4 adjacent numbers: 0

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# The TASK environment variable will be set automatically in the Einstein execution
+# The TASK environment  variable will be set automatically in the Einstein execution
 # environment.
 #
 # For testing, try to set the TASK environment variable...
