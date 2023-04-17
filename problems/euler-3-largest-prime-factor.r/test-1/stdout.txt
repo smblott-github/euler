@@ -1,6 +1,6 @@
 $ Rscript euler-3-largest-prime-factor.r 85
-[1] The largest prime factor of 85 is: 17
+The largest prime factor of 85 is: 17 
 $ Rscript euler-3-largest-prime-factor.r 9
-[1] The largest prime factor of 9 is: 3
-$ Rscript euler-3-largest-prime-factor: 2023
-[1] The largest prime factor of 2023: 17
+The largest prime factor of 9 is: 3 
+$ Rscript euler-3-largest-prime-factor.r 2023
+The largest prime factor of 2023 is: 17 
