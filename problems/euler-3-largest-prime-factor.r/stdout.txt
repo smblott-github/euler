@@ -1,6 +1,6 @@
 $ Rscript euler-3-largest-prime-factor.r 55
-[1] The largest prime factor of 55 is: 11
+The largest prime factor of 55 is: 11
 $ Rscript euler-3-largest-prime-factor.r 12345
-[1] The largest prime factor of 12345 is: 823
+The largest prime factor of 12345 is: 823
 $ Rscript euler-3-largest-prime-factor.r 77
-[1] The largest prime factor of 77 is: 11
+The largest prime factor of 77 is: 11
