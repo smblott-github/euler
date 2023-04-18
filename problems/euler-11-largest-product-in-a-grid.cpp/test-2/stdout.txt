@@ -1,4 +1,4 @@
-cat grid.txt
+$ cat grid.txt
 18 27 53 07 64 38 69 90 06 51 34 20 99 15 71 55 49 87 83 23
 50 77 01 96 29 62 17 40 82 46 53 25 67 12 33 74 39 80 14 07
 65 72 08 58 88 78 92 61 37 97 04 45 05 54 31 86 79 43 47 22
@@ -19,6 +19,6 @@ cat grid.txt
 66 52 47 28 43 89 20 54 11 62 73 82 79 33 37 15 22 00 08 94
 70 64 46 55 08 87 41 25 16 57 81 04 24 77 68 30 78 05 22 44
 67 58 42 30 21 39 69 43 64 92 85 34 04 16 48 96 37 62 86 50
-g++ -std=c++11 -Wall -Wextra -O2 -o euler-11-largest-product-in-a-grid euler-11-largest-product-in-a-grid.cpp
-./euler-11-largest-product-in-a-grid grid.txt
+$ g++ -std=c++11 -Wall -Wextra -O2 -o euler-11-largest-product-in-a-grid euler-11-largest-product-in-a-grid.cpp
+$ ./euler-11-largest-product-in-a-grid grid.txt
 Largest product of 4 adjacent numbers: 52462080
