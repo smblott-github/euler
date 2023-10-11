@@ -4,10 +4,27 @@ set -e
 
 path=( ./.bin $path )
 
+failed=()
+
 for task in [a-z]*.*
 do
   print -- "--------------------------------------------------"
   print -- $task
-  runner $task
+  if ! runner $task
+  then
+    failed+=( $task )
+  fi
   print
 done
+
+[[ $#failed == 0 ]] && exit 0
+
+print -- "--------------------------------------------------"
+print "errors ($#failed):"
+for task in $failed
+do
+  print "  " $task
+done
+print
+
+exit 1
