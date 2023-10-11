@@ -110,8 +110,20 @@ When naming new tasks:
 ****
 CI on GitLab is configured to run and test all markers.
 
-I'm not confident how reliable this is (SB).
+The execution environment for the CI tests is similar to the _Einstein_
+execution environment, but not identical.
+
+Let me (SB) know if you encounter any unexplained issues.
 ****
+
+****
+You can run the test locally for just your own task/marker by running the
+following command _in the root directory_ of your task...
+****
+
+----
+$ zsh ../.bin/runner
+----
 
 // //////////////////////////////////////////////////////////////
 == Acknowledgement
