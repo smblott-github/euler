@@ -21,10 +21,10 @@ This project is hosted on GitLab, here: https://gitlab.computing.dcu.ie/sblott/e
 . create a git branch for your contribution
 . write your marker:
 ** copy an existing marker (see the `problems` directory in the repo)
-** there's information on how to write _Einstein_ markers link:/einstein/help#_markers[here]
-** ask SB if you need help
-. submit a merge request (MR) on GitLab +
-  (https://slack.computing.dcu.ie/[Slack] or email SB too, otherwise I might not see your MR).
+** there's information on how to write _Einstein_ markers below and link:/einstein/help#_markers[here]
+// ** ask SB if you need help
+// . submit a merge request (MR) on GitLab +
+//   (https://slack.computing.dcu.ie/[Slack] or email SB too, otherwise I might not see your MR).
 ****
 
 // //////////////////////////////////////////////////////////////
@@ -40,7 +40,7 @@ The absolute minimum for a new task/marker is:
   the expected output
 - `task-description.ascii` +
   a description of the task with example command line arguments, input, output, and so on +
-  the format is https://asciidoctor.org/[asciidoc]; asciidoc is like grown-up markdown
+  the format is https://asciidoctor.org/[asciidoc]; asciidoc is like markdown, but all grown up
 ****
 
 ****
@@ -51,8 +51,7 @@ For input, you can:
 - use command-line arguments (filename: `argv.txt`), or
 - use standard input (filename: `stdin.txt`).
 
-Ask SB if you need more information;
-there's information on how to write _Einstein_ markers link:/einstein/help#_markers[here].
+Look at the existing markers to get ideas as to what might work best for your task.
 ****
 
 // //////////////////////////////////////////////////////////////
@@ -63,9 +62,17 @@ You can choose python, if that's your preference; but you don't have to.
 
 You can choose any language support by _Einstein_:
 
-- C, python, perl, Prolog, Haskell, Java, JavaScript, R (Rscript), ...
+- C, C\++, python, perl, Prolog, Haskell, Java, JavaScript, R (Rscript), ...
 - and some scripting languages which are less likely to be of interest here: +
   shell, zsh, awk, sed, ...
+
+Adding languages is usually pretty straightforward.  Ask SB if you'd like
+to try a language not listed above.
+
+You would need to know:
+
+1. how to install the interpreter or compilation system on Debian, and
+2. how you want the interpreter or compiler called by default.
 ****
 
 ****
@@ -82,16 +89,19 @@ but perhaps you might contribute
 
 or
 
- euler-1-multiples-of-3-or-5.R
+ euler-1-multiples-of-3-or-5.r
 ****
 
 ****
-Also, if you want to tackle a language which isn't already on the list,
-then adding languages to _Einstein_ is pretty trivial.
+When naming new tasks:
 
-Perhaps golang?  Or rust?
-
-Once again, just ask SB if you need help.
+- if there is an existing implementation of your task in a different
+  programming language, then you should copy the name used for that task,
+- otherwise, you should follow the style used in the naming of existing
+  tasks,
+- prefer to use hyphens as separators, use underscores only if hyphens
+  won't work for your programming language (e.g. Java doesn't like
+  hyphens).
 ****
 
 // //////////////////////////////////////////////////////////////
@@ -100,16 +110,11 @@ Once again, just ask SB if you need help.
 ****
 CI on GitLab is configured to run and test all markers.
 
-I'm not confident how reliable this is yet (SB).
+I'm not confident how reliable this is (SB).
 ****
 
 // //////////////////////////////////////////////////////////////
 == Acknowledgement
-
-****
-If you make a contribution, then please add your name to the list of
-Contributors in `index.ascii` (in this directory in the repo).
-****
 
 .GitHub
 ****
@@ -118,6 +123,8 @@ https://github.com/smblott-github/euler[here].
 
 Your contributions will be publicly visible, and you might link to them in
 your CV, for example.
+
+Optionally, include your name at the bottom of your task description.
 ****
 
 // //////////////////////////////////////////////////////////////
