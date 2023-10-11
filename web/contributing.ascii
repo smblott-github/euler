@@ -125,6 +125,15 @@ following command _in the root directory_ of your task...
 $ zsh ../.bin/runner
 ----
 
+****
+In addition, the same script can be used to _actually generate_ the
+`stdout.txt` files for your tasks, like this...
+****
+
+----
+$ ../.bin/runner -a
+----
+
 // //////////////////////////////////////////////////////////////
 == Acknowledgement
 
