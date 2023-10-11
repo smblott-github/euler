@@ -5,6 +5,13 @@
 :toc-title: Contents
 :toc-levels: 4
 
+//
+// It should not be necessary to make any changes to this file when
+// contributing new tasks.
+//
+// SB: 11/10/2023
+//
+
 ****
 [quote,Project Euler]
 ____
@@ -36,11 +43,15 @@ This project is:
 
 - hosted on GitLab, here: https://gitlab.computing.dcu.ie/sblott/euler[], and
 - mirrored to GitHub, here: https://github.com/smblott-github/euler[].
-
-Also, _please, please, please do consider contributing_!
 ****
 
 ////
+// I need to find a way for people to be credited with their contribution,
+// but without editing this file -- because that just creates merge
+// conflicts.
+//
+// For now... PLEASE DO NOT MAKE CHANGES HERE.  Thanks.  SB (11/10/2023).
+//
 .The following people have contributed to this project...
 ****
 - Stephen Blott (stephen.blott@dcu.ie) +
