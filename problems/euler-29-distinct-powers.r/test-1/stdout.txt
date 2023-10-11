@@ -1,0 +1,8 @@
+$ Rscript euler-29-distinct-powers.r 4
+[1] 8
+$ Rscript euler-29-distinct-powers.r 8
+[1] 44
+$ Rscript euler-29-distinct-powers.r 50
+[1] 2184
+$ Rscript euler-29-distinct-powers.r 150
+[1] 20797

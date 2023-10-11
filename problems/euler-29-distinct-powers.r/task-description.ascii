@@ -20,10 +20,10 @@ Euler problem 29: https://projecteuler.net/problem=29[].
 ****
 Assume a single command-line argument, a non-negative integer $x$.
 
-Consider all combinations of a to the power of b where a and b are 
+Consider all combinations of a to the power of b where a and b are
 between 2 and x inclusive.
 
-Write an R script named `euler-29-distinct-powers` which writes the number 
+Write an R script named `euler-29-distinct-powers.r` which writes the number
 of distinct terms in the sequence to standard output.
 
 Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
@@ -31,7 +31,7 @@ Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
 
 .Example invocation
 ----
-$ Rscript euler-29-distinct-powers.R 5
+$ Rscript euler-29-distinct-powers.r 5
 ----
 
 .Example standard output
@@ -41,7 +41,7 @@ $ Rscript euler-29-distinct-powers.R 5
 
 .Explanation
 ****
-2 to the power of 2 is 4, 2 to the power of 3 is 8, ..., 5 to the power 
+2 to the power of 2 is 4, 2 to the power of 3 is 8, ..., 5 to the power
 of 5 is 3125.
 
 When placed in numerical order with no ducplicates we get:
