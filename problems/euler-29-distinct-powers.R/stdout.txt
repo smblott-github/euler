@@ -1,4 +1,4 @@
-$ Rscript euler-29-distinct-powers.R 5 
+$ Rscript euler-29-distinct-powers.R 5
 [1] 15
 $ Rscript euler-29-distinct-powers.R 10
 [1] 69
