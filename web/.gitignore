@@ -1,1 +1,5 @@
 *.html
+euler-*.ascii
+euler_*.ascii
+problems.ascii
+hello.py.ascii

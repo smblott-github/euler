@@ -14,7 +14,7 @@ problems...
 [The problems are for] students for whom the basic curriculum is not feeding their hunger to learn...
 ____
 
-Link: https://projecteuler.net/[].
+Source: https://projecteuler.net/[].
 ****
 
 ****
@@ -40,6 +40,7 @@ This project is:
 Also, _please, please, please do consider contributing_!
 ****
 
+////
 .The following people have contributed to this project...
 ****
 - Stephen Blott (stephen.blott@dcu.ie) +
@@ -66,45 +67,23 @@ Also, _please, please, please do consider contributing_!
 
 When you make a contribution, add your name and the task to this list.
 ****
+////
 
 '''
 
 // //////////////////////////////////////////////////////////////
-== Euler problems
+== Problems
+
+****
+If you attempt any of these tasks and find markers which you think are
+incorrect, then please let me know.
+****
 
 .Problems
 ****
-- link:euler-1-multiples-of-3-or-5.html[euler-1-multiples-of-3-or-5]
-- link:euler-2-even-fibonacci-numbers.html[euler-2-even-fibonacci-numbers]
-- link:euler-2-even-fibonacci-numbers.html[euler-2-even-fibonacci-numbers] //broken, this one is in c++ the other is in python
-- link:euler-3-largest-prime-factor.html[euler-3-largest-prime-factor]
-- link:euler-4-largest-palindrome-product.html[euler-4-largest-palindrome-product]
-- link:euler-5-smallest-multiple.html[euler-5-smallest-multiple]
-- link:euler-6-sum-square-difference.html[euler-6-sum-square-difference]
-- link:euler-8-largest-product-in-a-series.html[euler-8-largest-product-in-a-series.py]
-- link:euler-20-factorial-digit-sum.html[euler-20-factorial-digit-sum]
-- link:euler-22-names-scores.html[euler-22-names-scores]
-- link:euler-24-lexicographic-permutation.html[euler-24-lexicographic-permutation]
-- link:euler-25-nth-digit-fibonacci-num.html[euler-25-nth-digit-fibonacci-num]
-- link:euler-19-counting-sundays.html[euler-19-counting-sundays.java]
+include::problems.ascii[]
 ****
 
-////
-Fix me...
-
-add euler-6-sum-square-difference.js
-add euler-2-even-fibonacci-numbers.js
-add euler-1-multiples-of-3-or-5.cpp
-add euler-1-multiples-of-3-or-5.js
-euler-4-largest-palindrome-product.r
-euler-3-largest-prime-factor.c
-euler_19_counting_sundays.java
-euler-31-coin-sums.js
-euler_24_lexicographic_permutations.java
-euler-16-power-digit-sum.js
-euler-2-even-fibonacci-numbers.cpp
-euler-3-largest-prime-factor.r
-////
 '''
 
 // //////////////////////////////////////////////////////////////

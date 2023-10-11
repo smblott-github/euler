@@ -4,9 +4,11 @@ ascii = $(wildcard *.ascii)
 slidy = $(wildcard *.slidy)
 html = $(patsubst %.ascii, %.html, $(ascii)) $(patsubst %.slidy, %.html, $(slidy))
 
-tasks = $(shell ls -d ../problems/[a-z]*.py)
-task_names = $(notdir $(tasks))
-html += $(task_names:.py=.html)
+descriptions = $(wildcard ../problems/*/task-description.ascii)
+directories = $(realpath $(dir $(descriptions)))
+task_names = $(notdir $(directories))
+
+html += $(addsuffix .html, $(task_names))
 
 build: $(html)
 	@true
@@ -21,8 +23,8 @@ rsync_options += --exclude="Makefile"
 rsync_options += --exclude="recent.html"
 
 install: $(html)
+	$(MAKE) build
 	rsync -av $(rsync_options) ./ einstein:web/$(mod)/
-	echo $(task_htmls)
 
 # SB uses `asciidoc-wrapper`, but CI uses just `asciidoctor`.
 #
@@ -30,17 +32,21 @@ ad_wrapper = $(shell which asciidoc-wrapper)
 ad_wrapper := $(if $(ad_wrapper), $(ad_wrapper), asciidoctor)
 
 %.html: %.ascii
-	asciidoctor \
-	  -a stylesheet=$(HOME)/projects/asciidoctor/src/stylesheets/asciidoctor.css \
-	  -a source-highlighter=pygments -a icons=font $<
+	$(ad_wrapper) $<
+
+index.html: problems.ascii index.ascii
+	$(ad_wrapper) index.ascii
+
+problems.ascii: $(addsuffix .ascii, $(task_names))
+	zsh build-problems-index.zsh $(task_names) > $@
 
 %.py.html: %.py
 	source-highlight $<
 
+%.ascii: ../problems/%/task-description.ascii
+	zsh install-task-description.zsh $< $@
+
 watch:
 	watch -n 1 $(MAKE) install
 
-%.ascii: ../problems/%.py/task-description.ascii
-	zsh install-task-description.zsh $< $@
-
-.PHONY: build install watch clean
+.PHONY: build install watch
