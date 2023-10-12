@@ -1,0 +1,42 @@
+1. What is Project Euler?
+   https://projecteuler.net/
+   https://projecteuler.net/problem=1
+
+2. What is Einstein/euler?
+   https://euler.computing.dcu.ie/
+
+3. You will have to:
+   1. pick an euler problem
+   2. pick a programming language
+
+4. git setup:
+   - fork euler project (link above)
+   - clone locally
+   - pick a task name:
+     e.g. euler-1-multiples-of-3-or-5.c
+
+     - copy the style of existing names
+     - use "-" as a separator, or "_" if absolutely necessary
+
+   - create a suitably-named branch (e.g. you task name!)
+
+5. create Einstein marker:
+   - in problems/$YOUR_TASK_NAME
+   - your solution
+   - your task description
+   - your test cases
+
+7. Einstein infrastructure
+   ...
+   Examples...
+
+   add-three-numbers.py
+     - one integer command-line argument
+     - one integer read from standard input
+     - one integer read from a file named "data.txt"
+     - add them and write the sum to standard output
+
+   euler-1-multiples-of-3-or-5.c
+
+8. push your new branch back to GitLab
+   create a merge request
