@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 
-# NOTE:
+# Note...
 #
-# The following solution iterates.  But I'm pretty sure that there's a closed
-# formula for this, and that the iteration is unnecessary.
+# This is a naive, iterative solution.
+#
+# A better solution exists with a simple closed formula and
+# a loop which iterates at most 14 times.
 #
 
 import sys
