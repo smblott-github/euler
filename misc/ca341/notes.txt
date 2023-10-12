@@ -36,7 +36,10 @@
      - one integer read from a file named "data.txt"
      - add them and write the sum to standard output
 
+     - note... testing locally
+
    euler-1-multiples-of-3-or-5.c
 
 8. push your new branch back to GitLab
    create a merge request
+   check CI

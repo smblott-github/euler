@@ -15,7 +15,7 @@ work, before we start worrying about more complicated things.)
 
 .Task
 ****
-Write a python script named `hello.c` which writes the message "hello" to
+Write a C program named `hello.c` which writes the message "hello" to
 standard output.
 
 Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
