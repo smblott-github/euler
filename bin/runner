@@ -52,7 +52,7 @@ run_test ()
 	 $TASK:t           ) true ;;
 	 #
 	 stdin.txt         ) print "exec < $TEST:t/$f"; exec < $f ;;
-	 argv.txt          ) IFS=$'\n' set -- $( < t.txt ) ;;
+	 argv.txt          ) IFS=$'\n' set -- $( < argv.txt ) ;;
 	 #
 	 runner.sh         ) install_tmp $f; runner=$f ;;
 	 runner.zsh        ) install_tmp $f; runner=$f ;;
