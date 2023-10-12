@@ -9,4 +9,8 @@ install: $(dst)
 $(bin_dir)/%: %
 	sudo install -v -m 0555 $< $@
 
-.PHONY: install
+pull:
+	rsync -ai ~/projects/einstein/user-scripts/runner .
+	chmod a+x runner
+
+.PHONY: install pull

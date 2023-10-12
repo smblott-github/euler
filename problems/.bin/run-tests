@@ -2,7 +2,7 @@
 
 set -e
 
-path=( ./.bin $path )
+path=( ../bin $path )
 
 failed=()
 

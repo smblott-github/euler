@@ -122,7 +122,7 @@ following command _in the root directory_ of your task...
 ****
 
 ----
-$ zsh ../.bin/runner
+$ zsh ../../bin/runner
 ----
 
 ****
@@ -131,7 +131,7 @@ In addition, the same script can be used to _actually generate_ the
 ****
 
 ----
-$ ../.bin/runner -a
+$ ../../bin/runner -a
 ----
 
 // //////////////////////////////////////////////////////////////
