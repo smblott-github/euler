@@ -1,0 +1,49 @@
+#!/usr/bin/zsh
+
+# Wrapper script for compiling and running C uploads to Einstein.
+#
+# Einstein defaults to using this script to build and run C uploads.
+# You don't have to use this script; if you include your own "runner.zsh"
+# or "runner.sh", then that will be run instead.
+
+# Take care here to preserve stdin.
+# We don't want any of the commands below (notably gcc) consuming it.
+
+# Fail and exit immediately if any of the commands below fail.
+#
+set -e
+
+# Extract the base name for this task.  Einstein sets the environment
+# variable TASK, so we extract the base name from that.
+#
+# E.g.... "test.c" -> "test".
+#
+base=${TASK%.c}
+
+# Guard against a lecturer inadvertently leaving a copy of the executable in
+# their marker directory.
+#
+if [[ -f $base ]]
+then
+   rm $base
+fi
+
+# Compile the upload:
+#
+#   - we redirect stdin because we don't want gcc to consume it here, and
+#   - we include the maths library because one/some of Donal's tasks use it.
+#
+# Note this: -std=c11
+#  and this: -Werror
+#            (all warnings are converted to errors; see stderr to fix the problem)
+#
+gcc -std=c11 -Werror -o $base -l m $TASK < /dev/null
+
+# Shift the name of the task off of the command-line arguments.
+#
+shift
+
+# And execute it the upload.
+# Stdin and the command-line arguments will be as specified in the marker directory.
+#
+exec ./$base $argv

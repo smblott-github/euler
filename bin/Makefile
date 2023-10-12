@@ -12,5 +12,7 @@ $(bin_dir)/%: %
 pull:
 	rsync -ai ~/projects/einstein/user-scripts/runner .
 	chmod a+x runner
+	rsync -ai ~/projects/einstein/docker/docker-image/res/c-marker .
+	chmod a+x c-marker
 
 .PHONY: install pull
