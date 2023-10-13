@@ -1,0 +1,52 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+
+The unusual name of this task is to force it to sort to the end of the task
+list on the web page.  A hack, indeed.
+////
+
+// //////////////////////////////////////////////////////////////
+= Add three numbers (getting started)
+
+****
+The purpose of this task is to demonstrate how to write a task which
+reads inputs from three different places.
+****
+
+.Task
+****
+Inputs:
+
+. a single integer command-line argument,
+. a single integer on standard input, and
+. a single integer in a file called `data.txt`.
+
+Write a python script named `demo-999-add-three-numbers.py` which
+writes the sum of those three numbers to standard output.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example standard input
+----
+2
+----
+
+.Example `data.txt`
+----
+3
+----
+
+.Example invocation
+----
+$ python3 demo-999-add-three-numbers.py 1
+----
+
+.Example standard output
+----
+6
+----

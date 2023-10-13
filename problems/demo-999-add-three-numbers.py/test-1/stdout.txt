@@ -1,0 +1,9 @@
+a=10, b=15 (stdin) c=20 (data.txt)
+$ python3 demo-999-add-three-numbers.py 10
+45
+a=100, b=101 (stdin) c=102 (data.txt)
+$ python3 demo-999-add-three-numbers.py 100
+303
+a=-1, b=-2 (stdin) c=-3 (data.txt)
+$ python3 demo-999-add-three-numbers.py -1
+-6
