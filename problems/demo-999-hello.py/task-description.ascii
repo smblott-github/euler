@@ -8,6 +8,9 @@ This generates the HTML which will be included on the website.
 (This particular task is here only for testing the infrastructure.  It's
 sometimes useful to have a super-simple task available... this task should
 work, before we start worrying about more complicated things.)
+
+The unusual name of this task is to force it to sort to the end of the task
+list on the web page.  A hack, indeed.
 ////
 
 // //////////////////////////////////////////////////////////////
@@ -15,7 +18,7 @@ work, before we start worrying about more complicated things.)
 
 .Task
 ****
-Write a C program named `hello.c` which writes the message "hello" to
+Write a python script named `demo-999-hello.py` which writes the message "hello" to
 standard output.
 
 Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
