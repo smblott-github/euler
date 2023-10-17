@@ -1,0 +1,30 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+
+(This particular task is here only for testing the infrastructure.  It's
+sometimes useful to have a super-simple task available... this task should
+work, before we start worrying about more complicated things.)
+
+The unusual name of this task is to force it to sort to the end of the task
+list on the web page.  A hack, indeed.
+////
+
+// //////////////////////////////////////////////////////////////
+= Hello (getting started)
+
+.Task
+****
+Write a ruby scrip named `demo-999-hello.rb` which writes the message "hello" to
+standard output.
+
+Upload your solution to https://euler.computing.dcu.ie/einstein/[_Einstein_].
+****
+
+.Example standard output
+----
+hello
+----
