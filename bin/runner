@@ -80,13 +80,16 @@ run_test ()
    local -a interpreter
 
    case $extension in
-      "py"  ) interpreter+="python3" ;;
-      "sh"  ) interpreter+="dash" ;;
-      "zsh" ) interpreter+="zsh" ;;
-      "pl"  ) interpreter+="perl" ;;
-      "hs"  ) interpreter+="runghc" ;;
-      "r"   ) interpreter+="Rscript" ;;
-      "R"   ) interpreter+="Rscript" ;;
+      "py"   ) interpreter+="python3" ;;
+      "sh"   ) interpreter+="dash" ;;
+      "zsh"  ) interpreter+="zsh" ;;
+      "pl"   ) interpreter+="perl" ;;
+      "hs"   ) interpreter+="runghc" ;;
+      "r"    ) interpreter+="Rscript" ;;
+      "R"    ) interpreter+="Rscript" ;;
+      "dart" ) interpreter+=( dart --disable-analyticsi run ) ;;
+      "rb"   ) interpreter+="ruby" ;;
+      "lua"  ) interpreter+="lua" ;;
    esac
    print -- $TASK:t "->" $runner:t "->" $extension "->" $interpreter
    print -- $interpreter $runner $argv
