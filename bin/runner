@@ -87,7 +87,7 @@ run_test ()
       "hs"   ) interpreter+="runghc" ;;
       "r"    ) interpreter+="Rscript" ;;
       "R"    ) interpreter+="Rscript" ;;
-      "dart" ) interpreter+=( dart --disable-analyticsi run ) ;;
+      "dart" ) interpreter+=( dart --disable-analytics run ) ;;
       "rb"   ) interpreter+="ruby" ;;
       "lua"  ) interpreter+="lua" ;;
    esac
