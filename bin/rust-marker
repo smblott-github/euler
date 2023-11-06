@@ -1,0 +1,17 @@
+#!/usr/bin/zsh
+set -e
+
+base=${TASK%.rs}
+
+# Guard against a lecturer inadvertently leaving a copy of the executable in
+# their marker directory.
+#
+if [[ -f $base ]]
+then
+   rm $base
+fi
+
+rustc $TASK
+
+shift
+exec ./$base $argv

@@ -90,6 +90,7 @@ run_test ()
       "dart" ) interpreter+=( dart --disable-analytics run ) ;;
       "rb"   ) interpreter+="ruby" ;;
       "lua"  ) interpreter+="lua" ;;
+      "rs"   ) interpreter+="rust-marker" ;;
    esac
    print -- $TASK:t "->" $runner:t "->" $extension "->" $interpreter
    print -- $interpreter $runner $argv
