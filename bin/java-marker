@@ -1,0 +1,10 @@
+#!/usr/bin/zsh
+
+set -e
+
+# Default wrapper script for compiling and running Java uploads.
+#
+case $TASK in
+  *.java ) javac $TASK && exec java ${TASK%.java} $argv ;;
+  *.jar  ) exec java -jar $TASK $argv ;;
+esac

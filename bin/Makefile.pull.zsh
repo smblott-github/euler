@@ -12,13 +12,14 @@ markers=(
   show-exec-command
   c-marker
   rust-marker
+  java-marker
 )
 
 rsync -ai ~/projects/einstein/user-scripts/runner
 
 (
   cd ~/projects/einstein/docker/docker-image/res
-  rsync -ai $execs $dst/
+  rsync -ai $markers $dst/
 )
 
 chmod a+x runner $execs
