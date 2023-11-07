@@ -13,9 +13,10 @@ markers=(
   c-marker
   rust-marker
   java-marker
+  cpp-marker
 )
 
-rsync -ai ~/projects/einstein/user-scripts/runner
+rsync -ai ~/projects/einstein/user-scripts/runner .
 
 (
   cd ~/projects/einstein/docker/docker-image/res

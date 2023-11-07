@@ -91,6 +91,11 @@ run_test ()
       "rb"   ) interpreter+="ruby" ;;
       "lua"  ) interpreter+="lua" ;;
       "rs"   ) interpreter+="rust-marker" ;;
+      "java" ) interpreter+="java-marker" ;;
+      "c"    ) interpreter+="c-marker" ;;
+      "js"   ) interpreter+="node" ;;
+      "go"   ) interpreter+=( go run ) ;;
+      "cpp"  ) interpreter+=( cpp-marker ) ;;
    esac
    print -- $TASK:t "->" $runner:t "->" $extension "->" $interpreter
    print -- $interpreter $runner $argv
