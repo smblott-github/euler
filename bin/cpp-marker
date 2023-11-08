@@ -1,0 +1,21 @@
+#!/usr/bin/zsh
+
+set -e
+base=${TASK%.cpp}
+
+if [[ -f $base ]]
+then
+   rm $base
+fi
+
+set -e
+g++ -Werror -o $base -l m $TASK < /dev/null
+
+# Shift the name of the task off of the command-line arguments.
+#
+shift
+
+# And execute it the upload.
+# Stdin and the command-line arguments will be as specified in the marker directory.
+#
+exec ./$base $argv
